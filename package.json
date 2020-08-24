@@ -1,0 +1,17 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "This is the starting template for a codelab giving a brief introduction to enhancing web pages with 3D content. Give it a try!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/model-viewer": "^1.1.0",
+    "@webcomponents/webcomponentsjs": "^2.4.4",
+    "fullscreen-polyfill": "^1.0.3",
+    "intersection-observer": "^0.11.0"
+  }
+}
