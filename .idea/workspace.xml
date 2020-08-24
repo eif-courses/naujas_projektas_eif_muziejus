@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="" />
+    <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Hello">
+      <change afterPath="$PROJECT_DIR$/audio/detektoriaus_maketas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/laptopas_acer_ak.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/msp_60_varzynas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/perfokorta.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gPguaKWSqrSet7O8pvgzS6No1C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,22 +27,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/audio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
       <recent name="C:\Users\Marius\Desktop\3dModel\images" />
       <recent name="C:\Users\Marius\Desktop\3dModel\posters" />
       <recent name="C:\Users\Marius\Desktop\3dModel\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
       <recent name="C:\Users\Marius\Desktop\3dModel\posters" />
       <recent name="C:\Users\Marius\Desktop\3dModel\models" />
       <recent name="C:\Users\Marius\Desktop\3dModel\third_party\DamagedHelmet" />
@@ -49,12 +63,24 @@
       <workItem from="1598184919155" duration="184000" />
       <workItem from="1598218518559" duration="4336000" />
       <workItem from="1598293142607" duration="5087000" />
-      <workItem from="1598299949733" duration="6191000" />
+      <workItem from="1598299949733" duration="9300000" />
     </task>
+    <task id="LOCAL-00001" summary="Hello">
+      <created>1598306432711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598306432711</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hello" />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598219771987">
@@ -65,14 +91,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598306166476" />
-    <state x="838" y="417" key="Github.ShareDialog" timestamp="1598306077843">
+    <state x="838" y="417" key="Github.ShareDialog" timestamp="1598306214198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="838" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598306077843" />
+    <state x="838" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598306214198" />
+    <state x="776" y="224" key="Github.UntrackedFilesDialog" timestamp="1598306225157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598306225157" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1598306195292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598306434440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598306434440" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1598293195263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
