@@ -9,10 +9,11 @@
 
 <!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
 <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
-
+<script src="js/fullscreen.polyfill.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/webxr-polyfill@latest/build/webxr-polyfill.js"></script>
 <!-- 💁 OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
 <script src="https://unpkg.com/resize-observer-polyfill@1.5.1/dist/ResizeObserver.js"></script>
-
+<script src='https://cdn.jsdelivr.net/npm/webxr-polyfill@latest/build/webxr-polyfill.js'></script>
 
 <script>
     function play(name, sound) {
@@ -54,22 +55,10 @@
         width: 100%;
         height: 400px;
     }
-
-    .lazy-load-poster {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
     .button-load {
+        background-image: url("images/kubas4d.png");
         background-repeat: no-repeat;
         background-size: 24px 24px;
-        background-image: url("images/kubas4d.png");
         background-position: 6% 50%;
         background-color: #000;
         color: white;
@@ -78,12 +67,23 @@
         display: inline-block;
         padding: 10px 18px 9px 40px;
         font-weight: 500;
-        box-shadow: 0 0 8px rgba(0, 0, 0, .2), 0 0 4px rgba(0, 0, 0, .25);
+        box-shadow: 0 0 8px rgba(0,0,0,.2), 0 0 4px rgba(0,0,0,.25);
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate3d(-50%, -50%, 0);
         z-index: 100;
+    }
+    .lazy-load-poster {
+        background-image: url("posters/detektoriaus_stendas.png");
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
 </style>
@@ -156,7 +156,7 @@
 
 
     <h4><strong>Bandomoją žaidimo versiją gali išbandyti jau dabar!</strong></h4>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HwGVn_dq47k" frameborder="0"
+    <iframe width="300px" height="315" src="https://www.youtube.com/embed/HwGVn_dq47k" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <hr/>
     <a target="_blank"
@@ -196,10 +196,12 @@
                               poster="posters/detektoriaus_stendas.png" camera-controls
                               camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg"
                               reveal="interaction">
-                    <div class="lazy-load-poster" slot="poster"
-                         style="background-image: url(posters/detektoriaus_stendas.png);"></div>
-                    <div class="button-load" slot="poster">3D peržiūra</div>
+                    <div class="button-load"> 3D peržiūra</div>
+
                 </model-viewer>
+
+
+
                 <div class="w3-container">
                     <h3>Laboratorinis detektoriaus maketas Lietuva 1976 m. </h3>
                     <p class="w3-opacity">CEO & Founder</p>
@@ -217,13 +219,12 @@
         </div>
         <div class="w3-col m4 w3-margin-bottom">
             <div class="w3-light-grey">
-                <model-viewer style="width:100%; height: 400px" src="models/acer_anywhere_laptop.glb" exposure="0.63"
+                <model-viewer ar style="width:100%; height: 400px" src="models/acer_anywhere_laptop.glb" exposure="0.63"
                               shadow-intensity="5.5" shadow-softness="0.42" poster="posters/acer_anywhere_laptop.png"
                               camera-controls camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg"
                               reveal="interaction">
-                    <div class="lazy-load-poster" slot="poster"
-                         style="background-image: url(posters/acer_anywhere_laptop.png);"></div>
-                    <div class="button-load" slot="poster">3D peržiūra</div>
+                    <div class="button-load"> 3D peržiūra</div>
+
                 </model-viewer>
                 <div class="w3-container">
                     <h3>Nešiojamas AK Acer AnyWare 1100LX Taivanas 1991m.</h3>
@@ -245,14 +246,13 @@
         </div>
         <div class="w3-col m4 w3-margin-bottom">
             <div class="w3-light-grey">
-                <model-viewer style="width:100%; height: 400px" src="models/varzynas_didelis_mcp60.glb" camera-controls
+                <model-viewer ar style="width:100%; height: 400px" src="models/varzynas_didelis_mcp60.glb" camera-controls
                               camera-orbit="-294.3deg 26.96deg 7.548m" field-of-view="45deg"
                               min-camera-orbit="auto auto auto" max-camera-orbit="auto auto auto"
                               min-field-of-view="auto" max-field-of-view="auto"
                               poster="posters/varzynas_didelis_mcp60.png" reveal="interaction">
-                    <div class="lazy-load-poster" slot="poster"
-                         style="background-image: url(posters/varzynas_didelis_mcp60.png);"></div>
-                    <div class="button-load" slot="poster">3D peržiūra</div>
+                    <div class="button-load"> 3D peržiūra</div>
+
                 </model-viewer>
                 <div class="w3-container">
                     <h3>Laboratorinis varžynas MSP-60 TSRS 1956 m. </h3>
@@ -276,11 +276,9 @@
     <div class="w3-row-padding">
         <div class="w3-col m4 w3-margin-bottom">
             <div class="w3-light-grey">
-                <model-viewer src="models/perfokorta.glb" camera-controls poster="posters/perfokorta.png"
+                <model-viewer ar src="models/perfokorta.glb" camera-controls poster="posters/perfokorta.png"
                               camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
-                    <div class="lazy-load-poster" slot="poster"
-                         style="background-image: url(posters/perfokorta.png);"></div>
-                    <div class="button-load" slot="poster">3D peržiūra</div>
+                    <div class="button-load"> 3D peržiūra</div>
 
                 </model-viewer>
                 <div class="w3-container">
@@ -302,13 +300,19 @@
         </div>
         <div class="w3-col m4 w3-margin-bottom">
             <div class="w3-light-grey">
-                <model-viewer src="models/feritine_matrica.glb" camera-controls poster="posters/feritine_matrica.png"
-                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
-                    <div class="lazy-load-poster" slot="poster"
-                         style="background-image: url(posters/feritine_matrica.png);"></div>
-                    <div class="button-load" slot="poster">3D peržiūra</div>
 
+
+
+                <model-viewer ar src="models/feritine_matrica.glb" camera-controls poster="posters/feritine_matrica.png"
+                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
+                    <div class="button-load"> 3D peržiūra</div>
                 </model-viewer>
+                <script>
+                    function rem(){
+                        $('#button-load').remove();
+                    }
+                </script>
+
                 <div class="w3-container">
                     <h3>Feritinė atminties matrica TSRS 1960 m.</h3>
                     <p class="w3-opacity">Architect</p>
@@ -329,11 +333,9 @@
         </div>
         <div class="w3-col m4 w3-margin-bottom">
             <div class="w3-light-grey">
-                <model-viewer src="models/oscilografas.glb" camera-controls poster="posters/oscilografas.png"
+                <model-viewer ar src="models/oscilografas.glb" camera-controls poster="posters/oscilografas.png"
                               camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
-                    <div class="lazy-load-poster" slot="poster"
-                         style="background-image: url(posters/oscilografas.png);"></div>
-                    <div class="button-load" slot="poster">3D peržiūra</div>
+                    <div class="button-load"> 3D peržiūra</div>
 
                 </model-viewer>
                 <div class="w3-container">
@@ -353,6 +355,12 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
 
 
     <!-- Packages / Pricing Tables -->
