@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Hello">
-      <change afterPath="$PROJECT_DIR$/audio/detektoriaus_maketas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/laptopas_acer_ak.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/msp_60_varzynas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/perfokorta.wav" afterDir="false" />
+    <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Helloaaa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -63,7 +77,8 @@
       <workItem from="1598184919155" duration="184000" />
       <workItem from="1598218518559" duration="4336000" />
       <workItem from="1598293142607" duration="5087000" />
-      <workItem from="1598299949733" duration="9300000" />
+      <workItem from="1598299949733" duration="9700000" />
+      <workItem from="1598359511342" duration="4901000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1598306432711</created>
@@ -72,21 +87,51 @@
       <option name="project" value="LOCAL" />
       <updated>1598306432711</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Helloaaa">
+      <created>1598309435641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598309435641</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Helloaaa">
+      <created>1598309464790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598309464790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hello" />
+    <MESSAGE value="Helloaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Helloaaa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598219771987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598219771987" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1598309734893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598309734893" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1598306166476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -103,10 +148,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598306434440">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598309597593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598306434440" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598309597593" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1598293195263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
