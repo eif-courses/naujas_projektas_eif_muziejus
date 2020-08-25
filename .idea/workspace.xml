@@ -19,11 +19,137 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Helloaaa" />
+    <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Helloaaa">
+      <change afterPath="$PROJECT_DIR$/public/audio/feritine_matrica.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/oscilografas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/kubas4d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/perziiura360.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/fullscreen.polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/intersection-observer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/webcomponents-loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/3dModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3dModel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/detektoriaus_maketas.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/detektoriaus_maketas.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/laptopas_acer_ak.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/laptopas_acer_ak.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/msp_60_varzynas.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/msp_60_varzynas.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/perfokorta.wav" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/perfokorta.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/LOGO_intro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/LOGO_intro.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kolegija_priekis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/kolegija_priekis.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/muziejus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/muziejus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/win.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/win.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/acer_anywhere_laptop.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/acer_anywhere_laptop.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ampermetras.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/ampermetras.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/aukstavoltis_diodas.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/aukstavoltis_diodas.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bmm.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/bmm.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bystryca_2.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/bystryca_2.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/detektoriaus_stendas3d.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/detektoriaus_stendas3d.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/egzaminatorius.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/egzaminatorius.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/elektronika_bk_36_skaiciuotuvas.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/elektronika_bk_36_skaiciuotuvas.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/elektroninis_vamzdis_lozi13.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/elektroninis_vamzdis_lozi13.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/eletronika580.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/eletronika580.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/feritine_matrica.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/feritine_matrica.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/generatoriusg15.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/generatoriusg15.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/gradynas_stendas1994.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/gradynas_stendas1994.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/grandynas_stendas_1994.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/grandynas_stendas_1994.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ibm_diskai1311.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/ibm_diskai1311.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ibm_kompiuteris_terminalas.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/ibm_kompiuteris_terminalas.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/imula2_radija.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/imula2_radija.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/kd_crown_maketa.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/kd_crown_maketa.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/komsolec_zalia_radija.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/komsolec_zalia_radija.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/komutatorius.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/komutatorius.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/kondensatorius.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/kondensatorius.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/laboratorinis_varzynas_mazas.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/laboratorinis_varzynas_mazas.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/magnetola_ELFA_LT.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/magnetola_ELFA_LT.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mobilus_vbox_motorola.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/mobilus_vbox_motorola.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nesiojamas_juodas_laptopas.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/nesiojamas_juodas_laptopas.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/oscilografas.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/oscilografas.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/perfokorta.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/perfokorta.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/power_macintosh.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/power_macintosh.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/radija_veras225_beGarsinimo.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/radija_veras225_beGarsinimo.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/radijo_lempa_triodas.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/radijo_lempa_triodas.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/radijo_melodija_plokstelinis.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/radijo_melodija_plokstelinis.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/robik_pc.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/robik_pc.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/rp_255_radija.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/rp_255_radija.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/santaka_buitinis.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/santaka_buitinis.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/siedmaisis.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/siedmaisis.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/silelis_tc32.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/silelis_tc32.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/telegrafo_raktas.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/telegrafo_raktas.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/televiziniu_signalu_gis_generatorius.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/televiziniu_signalu_gis_generatorius.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/tesla_lempa.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/tesla_lempa.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ukraina5_projektorius.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/ukraina5_projektorius.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/universalus_matuoklis.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/universalus_matuoklis.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/varzynas_didelis_mcp60.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/varzynas_didelis_mcp60.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/vefta_12_telefonas.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/vefta_12_telefonas.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/vefta_bagta50_telefonas.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/vefta_bagta50_telefonas.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/vesna_202_radija.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/vesna_202_radija.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/video_magnetofono_stentas_eif.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/video_magnetofono_stentas_eif.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/voltmetras.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/voltmetras.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/zigzagine_antena.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/models/zigzagine_antena.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/acer_anywhere_laptop.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/acer_anywhere_laptop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/ampermetras.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/ampermetras.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/aukstavoltis_diodas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/aukstavoltis_diodas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/bmm.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/bmm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/bystryca_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/bystryca_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/detektoriaus_stendas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/detektoriaus_stendas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/egzaminatorius.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/egzaminatorius.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/elektronika_bk_36_skaiciuotuvas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/elektronika_bk_36_skaiciuotuvas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/elektroninis_vamzdis_lozi13.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/elektroninis_vamzdis_lozi13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/eletronika580.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/eletronika580.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/feritine_matrica.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/feritine_matrica.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/generatoriusg15.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/generatoriusg15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/gradynas_stendas1994.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/gradynas_stendas1994.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/grandynas_stendas_1994.glb" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/grandynas_stendas_1994.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/ibm_diskai1311.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/ibm_diskai1311.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/ibm_kompiuteris_terminalas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/ibm_kompiuteris_terminalas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/imula2_radija.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/imula2_radija.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/kd_crown_maketa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/kd_crown_maketa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/komsolec_zalia_radija.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/komsolec_zalia_radija.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/komutatorius.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/komutatorius.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/kondensatorius.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/kondensatorius.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/laboratorinis_varzynas_mazas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/laboratorinis_varzynas_mazas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/magnetola_ELFA_LT.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/magnetola_ELFA_LT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/mobilus_vbox_motorola.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/mobilus_vbox_motorola.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/nesiojamas_juodas_laptopas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/nesiojamas_juodas_laptopas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/oscilografas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/oscilografas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/perfokorta.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/perfokorta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/power_macintosh.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/power_macintosh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/radija_veras225_beGarsinimo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/radija_veras225_beGarsinimo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/radijo_lempa_triodas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/radijo_lempa_triodas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/radijo_melodija_plokstelinis.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/radijo_melodija_plokstelinis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/robik_pc.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/robik_pc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/rp_255_radija.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/rp_255_radija.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/santanka_buitinis.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/santanka_buitinis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/siedmaisis.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/siedmaisis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/silelis_tc32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/silelis_tc32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/telegrafo_raktas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/telegrafo_raktas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/televiziniu_signalu_gis_generatorius.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/televiziniu_signalu_gis_generatorius.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/tesla_lempa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/tesla_lempa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/ukraina5_projektorius.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/ukraina5_projektorius.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/universalus_matuoklis.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/universalus_matuoklis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/varzynas_didelis_mcp60.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/varzynas_didelis_mcp60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/vefta_12_telefonas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/vefta_12_telefonas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/vefta_bagta50_telefonas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/vefta_bagta50_telefonas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/vesna_202_radija.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/vesna_202_radija.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/video_magnetofono_stentas_eif.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/video_magnetofono_stentas_eif.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/voltmetras.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/voltmetras.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/zigzagine_antena.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/posters/zigzagine_antena.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,29 +164,53 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/audio" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/audio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\Desktop\3dModel\public" />
+      <recent name="C:\Users\Marius\Desktop\3dModel" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\posters" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\Desktop\3dModel\public\audio" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\public\images" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\js" />
       <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
       <recent name="C:\Users\Marius\Desktop\3dModel\images" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\posters" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\models" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\posters" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\models" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\third_party\DamagedHelmet" />
-    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,6 +226,9 @@
       <workItem from="1598293142607" duration="5087000" />
       <workItem from="1598299949733" duration="9700000" />
       <workItem from="1598359511342" duration="5132000" />
+      <workItem from="1598375710740" duration="3190000" />
+      <workItem from="1598381888677" duration="1409000" />
+      <workItem from="1598384035417" duration="6723000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1598306432711</created>
@@ -112,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598364663214</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Helloaaa">
+      <created>1598375765138</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598375765138</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +288,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello" />
@@ -135,18 +296,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Helloaaa" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598382223551">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598382223551" />
     <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598219771987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598219771987" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598384484523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598384484523" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1598309734893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598309734893" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1598306166476">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1598377336108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598306166476" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598377336108" />
     <state x="838" y="417" key="Github.ShareDialog" timestamp="1598306214198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -155,14 +324,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598306225157" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1598383403931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598383403931" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1598383403931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598383403931" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1598383403930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598383403930" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1598383403931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598383403931" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1598306195292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598364664836">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598375833550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598364664836" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598375833550" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1598293195263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

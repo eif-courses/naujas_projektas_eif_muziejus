@@ -8,5 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="a076d05399" level="application" />
+    <orderEntry type="library" name="w3" level="application" />
+    <orderEntry type="library" name="@magicleap/prismatic" level="application" />
   </component>
 </module>

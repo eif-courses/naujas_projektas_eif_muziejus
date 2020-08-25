@@ -2,7 +2,7 @@
   "name": "package",
   "version": "1.0.0",
   "description": "This is the starting template for a codelab giving a brief introduction to enhancing web pages with 3D content. Give it a try!",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +13,14 @@
     "@webcomponents/webcomponentsjs": "^2.4.4",
     "fullscreen-polyfill": "^1.0.3",
     "intersection-observer": "^0.11.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eif-courses/naujas_projektas_eif_muziejus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eif-courses/naujas_projektas_eif_muziejus/issues"
+  },
+  "homepage": "https://github.com/eif-courses/naujas_projektas_eif_muziejus#readme"
 }
