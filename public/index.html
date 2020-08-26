@@ -19,10 +19,22 @@
     function play(name, sound) {
         var audio = document.getElementById(name);
 
-        audio.pause();
-        audio.currentTime = 0;
+        // audio.pause();
+        // audio.currentTime = 0;
         audio.src = sound;
+
+
+        var sounds = document.getElementsByTagName('audio');
+        for(i=0; i<sounds.length; i++) {
+            sounds[i].pause();
+            sounds[i].currentTime = 0;
+        }
         audio.play().catch(e => e);
+
+
+
+
+        
 
         // audio.pause();
         // audio.currentTime = 0;
@@ -265,13 +277,13 @@
                     <p>Laboratorinis varžynas (varžų rinkinys) skirtas sukurti reikiamos varžos elementus sudarant
                         įvairias elektrines grandines. Bendra važa nuo 0.01 omo iki 10 kilo omų </p>
                     <p>
-                        <button onclick="play('audio3')" class="w3-button w3-xlarge w3-teal"><i
+                        <button onclick="play('audio3', 'audio/msp_60_varzynas.wav')" class="w3-button w3-xlarge w3-teal"><i
                                 class="fas fa-volume-up"></i> Klausyti įrašą
                         </button>
                     </p>
 
                 </div>
-                <audio id="audio3" src="audio/laptopas_acer_ak.wav"></audio>
+                <audio id="audio3" src="audio/msp_60_varzynas.wav"></audio>
 
             </div>
         </div>
@@ -292,7 +304,7 @@
                         kortelė, pagaminta iš plono kartono. Informacija joje užrašoma išmušant skylutes. Patento
                         savininkas IBM. Laikmeną plačiai naudojo programuotojai iki 1980 m. </p>
                     <p>
-                        <button onclick="play('audio4')" class="w3-button w3-xlarge w3-teal"><i
+                        <button onclick="play('audio4', 'audio/perfokorta.wav')" class="w3-button w3-xlarge w3-teal"><i
                                 class="fas fa-volume-up"></i>
                             Klausyti įrašą
                         </button>
@@ -324,7 +336,7 @@
                         aptinkama Japonijoje iki 1975 m. Naudota kaip vaizdinė priemonė aiškinant atminties veikimo
                         principą.</p>
                     <p>
-                        <button onclick="play('audio5')" class="w3-button w3-xlarge w3-teal"><i
+                        <button onclick="play('audio5', 'audio/feritine_matrica.wav')" class="w3-button w3-xlarge w3-teal"><i
                                 class="fas fa-volume-up"></i>
                             Klausyti įrašą
                         </button>
@@ -346,7 +358,7 @@
                     <p>Analoginis - lempinis oscilografas, skirtas tirti iki 50 voltų amplitudes ir iki 1Mhz (megaherco)
                         dažnio signalams. </p>
                     <p>
-                        <button onclick="play('audio6')" class="w3-button w3-xlarge w3-teal"><i
+                        <button onclick="play('audio6', 'audio/oscilografas.wav')" class="w3-button w3-xlarge w3-teal"><i
                                 class="fas fa-volume-up"></i>
                             Klausyti įrašą
                         </button>
