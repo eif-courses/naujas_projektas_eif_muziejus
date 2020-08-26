@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>EIF MUZIEJUS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+
+<!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
+<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+<script src="js/fullscreen.polyfill.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/webxr-polyfill@latest/build/webxr-polyfill.js"></script>
+<!-- 💁 OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
+<script src="https://unpkg.com/resize-observer-polyfill@1.5.1/dist/ResizeObserver.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/webxr-polyfill@latest/build/webxr-polyfill.js'></script>
+
+
+<script>
+    function play(name, sound) {
+        var audio = document.getElementById(name);
+
+        // audio.pause();
+        // audio.currentTime = 0;
+        audio.src = sound;
+
+
+        var sounds = document.getElementsByTagName('audio');
+        for(i=0; i<sounds.length; i++) {
+            sounds[i].pause();
+            sounds[i].currentTime = 0;
+        }
+        audio.play().catch(e => e);
+
+
+
+
+
+
+        // audio.pause();
+        // audio.currentTime = 0;
+
+
+    }
+
+</script>
+<style>
+    body, h1, h2, h3, h4, h5 {
+        font-family: "Poppins", sans-serif
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .w3-half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .w3-half img:hover {
+        opacity: 1
+    }
+
+    model-viewer {
+        width: 100%;
+        height: 400px;
+    }
+    .button-load {
+        background-image: url("images/kubas4d.png");
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+        background-position: 6% 50%;
+        background-color: #000;
+        color: white;
+        cursor: pointer;
+        border-radius: 6px;
+        display: inline-block;
+        padding: 10px 18px 9px 40px;
+        font-weight: 500;
+        box-shadow: 0 0 8px rgba(0,0,0,.2), 0 0 4px rgba(0,0,0,.25);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        z-index: 100;
+    }
+    .lazy-load-poster {
+        background-image: url("posters/detektoriaus_stendas.png");
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>
+<body>
+
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;"
+     id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
+       style="width:100%;font-size:22px">Close Menu</a>
+    <div class="w3-container">
+        <h3 class="w3-padding-64"><b>EIF MUZIEJUS</b></h3>
+    </div>
+    <div class="w3-bar-block">
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img width="32px" height="32px"
+                                                                                           src="posters/silelis_tc32.png"><span
+                style="padding-left: 10px;">Pradžia</span></a>
+        <a href="index.html#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img width="32px"
+                                                                                                   height="32px"
+                                                                                                   src="posters/egzaminatorius.png"><span
+                style="padding-left: 10px;">Apie projektą</span></a>
+        <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img width="32px"
+                                                                                                    height="32px"
+                                                                                                    src="posters/aukstavoltis_diodas.png">
+            <span style="padding-left: 10px;">Eksponatai</span></a>
+        <a href="index.html#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img width="32px"
+                                                                                                   height="32px"
+                                                                                                   src="posters/gradynas_stendas1994.png"><span
+                style="padding-left: 10px;">Kūrėjams</span></a>
+        <a href="index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img width="32px"
+                                                                                                  height="32px"
+                                                                                                  src="posters/generatoriusg15.png"><span
+                style="padding-left: 10px;">Kontaktai</span></a>
+    </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
+    <span>EIF MUZIEJUS</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+     id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+
+    <!-- Photo grid (modal) -->
+
+
+
+    <!-- Designers -->
+    <div class="w3-container" id="designers" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-blue"><b>Eksponatai</b></h1>
+        <hr style="width:100%;border:5px solid #2196F3!important;" class="w3-round">
+
+
+        <div class="w3-panel w3-pale-yellow w3-border">
+            <h3>SVARBU!</h3>
+            <p>Paspauskite ant eksponato ir peržiūrėkite 3D modelį! Laikant pelės kairį klavišą galite sukioti 360 laipsniu, pelės ratukas priartina. Mobilus telefonai atitinkamai sukioti gali su touchscreen.</p>
+        </div>
+
+
+        <p>Šiuos eksponatus galite rasti Vilniaus kolegijos elektronikos ir informatikos fakultete elektronikos
+            muziejuje. Žemiau galite rasti trumpus aprašymus bei 3D modelius peržiūrėti naršyklėje tiesiog paspaudus ant
+            paveikslėlio ir pasukinėjant į šoną. Taip pat yra pridėti ir garso įrašai apie kiekvieną eksponatą.
+            Norintiems pasivaikščioti po kolegiją ir muziejų galite atsisiųsti bandomąją vaizdo žaidimo versiją Windows
+            x64 platformai <a
+                    href="https://vikolt-my.sharepoint.com/:u:/g/personal/m_gzegozevskis_ad_viko_lt/Efej1hxgRldGn2hyY_ClsWIBioUGDdGdElKsz5-esLDpLg?e=IzHmzj"
+                    target="_blank">čia</a>.
+        </p>
+    </div>
+
+    <!-- The Team -->
+    <div class="w3-row-padding">
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <model-viewer id="lazy-load" ar style="width:100%; height: 400px"
+                              src="models/detektoriaus_stendas3d.glb"
+                              exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                              poster="posters/detektoriaus_stendas.png" camera-controls
+                              camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg"
+                              reveal="interaction">
+                </model-viewer>
+
+
+
+                <div class="w3-container">
+                    <h3>Laboratorinis detektoriaus maketas Lietuva 1976 m. </h3>
+                    <p class="w3-opacity">CEO & Founder</p>
+                    <p>Laboratorinis maketas buvo naudojamas laboratorinių darbų metu signalų ir grandinių
+                        laboratorijoje.</p>
+                    <p>
+                        <button onclick="play('audio', 'audio/detektoriaus_maketas.wav')"
+                                class="w3-button w3-xlarge w3-teal"><i class="fas fa-volume-up"></i> Klausyti įrašą
+                        </button>
+                    </p>
+                </div>
+                <audio id="audio" src="audio/detektoriaus_maketas.wav"></audio>
+
+            </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <model-viewer ar style="width:100%; height: 400px" src="models/acer_anywhere_laptop.glb" exposure="0.63"
+                              shadow-intensity="5.5" shadow-softness="0.42" poster="posters/acer_anywhere_laptop.png"
+                              camera-controls camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg"
+                              reveal="interaction">
+
+                </model-viewer>
+                <div class="w3-container">
+                    <h3>Nešiojamas AK Acer AnyWare 1100LX Taivanas 1991m.</h3>
+                    <p class="w3-opacity">Designer</p>
+                    <p>IBM suderinamas nešiojamas kompiuteris. CPU (procesorius) - Intel 80386SX16 16 Mhz, Operatyvioji
+                        atmintis 5MB, Kietasis diskas HDD - 120 MB, lanksčiųjų diskelių įrenginys - 3.5, ekranas -
+                        monochrominis skiriamoji geba 640x480, operacinė sistema DOS, Windows 3.1. Svoris 6 kg, kaina -
+                        4500$.</p>
+                    <p>
+                        <button onclick="play('audio2','audio/laptopas_acer_ak.wav')"
+                                class="w3-button w3-xlarge w3-teal"><i class="fas fa-volume-up"></i> Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio2" src="audio/laptopas_acer_ak.wav"></audio>
+
+            </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <model-viewer ar style="width:100%; height: 400px" src="models/varzynas_didelis_mcp60.glb" camera-controls
+                              camera-orbit="-294.3deg 26.96deg 7.548m" field-of-view="45deg"
+                              min-camera-orbit="auto auto auto" max-camera-orbit="auto auto auto"
+                              min-field-of-view="auto" max-field-of-view="auto"
+                              poster="posters/varzynas_didelis_mcp60.png" reveal="interaction">
+
+                </model-viewer>
+                <div class="w3-container">
+                    <h3>Laboratorinis varžynas MSP-60 TSRS 1956 m. </h3>
+                    <p class="w3-opacity">Architect</p>
+                    <p>Laboratorinis varžynas (varžų rinkinys) skirtas sukurti reikiamos varžos elementus sudarant
+                        įvairias elektrines grandines. Bendra važa nuo 0.01 omo iki 10 kilo omų </p>
+                    <p>
+                        <button onclick="play('audio3', 'audio/msp_60_varzynas.wav')" class="w3-button w3-xlarge w3-teal"><i
+                                class="fas fa-volume-up"></i> Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio3" src="audio/msp_60_varzynas.wav"></audio>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w3-row-padding">
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <model-viewer ar src="models/perfokorta.glb" camera-controls poster="posters/perfokorta.png"
+                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
+
+                </model-viewer>
+                <div class="w3-container">
+                    <h3>Perfokorta Lietuva 1960 m.</h3>
+                    <p class="w3-opacity">Architect</p>
+                    <p>Perfokorta - duomenų laikmena, kurią naudoja automatizuotos sistemos. Tai stačiakampio formos
+                        kortelė, pagaminta iš plono kartono. Informacija joje užrašoma išmušant skylutes. Patento
+                        savininkas IBM. Laikmeną plačiai naudojo programuotojai iki 1980 m. </p>
+                    <p>
+                        <button onclick="play('audio4', 'audio/perfokorta.wav')" class="w3-button w3-xlarge w3-teal"><i
+                                class="fas fa-volume-up"></i>
+                            Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio4" src="audio/perfokorta.wav"></audio>
+            </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+
+
+                <model-viewer ar src="models/feritine_matrica.glb" camera-controls poster="posters/feritine_matrica.png"
+                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
+                </model-viewer>
+
+                <div class="w3-container">
+                    <h3>Feritinė atminties matrica TSRS 1960 m.</h3>
+                    <p class="w3-opacity">Architect</p>
+                    <p>Feritinė matrica, kurioje kiekvienas feritinis žiedelis galėdavo atsiminti 1 bitą. Matricos talpa
+                        apie 1024 bitus. Patento savininkas IBM, tačiau ji buvo gaminama visame pasaulyje, dažniausiai
+                        aptinkama Japonijoje iki 1975 m. Naudota kaip vaizdinė priemonė aiškinant atminties veikimo
+                        principą.</p>
+                    <p>
+                        <button onclick="play('audio5', 'audio/feritine_matrica.wav')" class="w3-button w3-xlarge w3-teal"><i
+                                class="fas fa-volume-up"></i>
+                            Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio5" src="audio/feritine_matrica.wav"></audio>
+            </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <model-viewer ar src="models/oscilografas.glb" camera-controls poster="posters/oscilografas.png"
+                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
+
+                </model-viewer>
+                <div class="w3-container">
+                    <h3>Oscilografas S1-19A TSRS 1972 m.</h3>
+                    <p class="w3-opacity">Architect</p>
+                    <p>Analoginis - lempinis oscilografas, skirtas tirti iki 50 voltų amplitudes ir iki 1Mhz (megaherco)
+                        dažnio signalams. </p>
+                    <p>
+                        <button onclick="play('audio6', 'audio/oscilografas.wav')" class="w3-button w3-xlarge w3-teal"><i
+                                class="fas fa-volume-up"></i>
+                            Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio6" src="audio/oscilografas.wav"></audio>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <model-viewer ar src="models/ampermetras.glb" camera-controls poster="posters/ampermetras.png"
+                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
+
+                </model-viewer>
+                <div class="w3-container">
+                    <h3>Perfokorta Lietuva 1960 m.</h3>
+                    <p class="w3-opacity">Architect</p>
+                    <p>Perfokorta - duomenų laikmena, kurią naudoja automatizuotos sistemos. Tai stačiakampio formos
+                        kortelė, pagaminta iš plono kartono. Informacija joje užrašoma išmušant skylutes. Patento
+                        savininkas IBM. Laikmeną plačiai naudojo programuotojai iki 1980 m. </p>
+                    <p>
+                        <button onclick="play('audio7', 'audio/ampermetras.wav')" class="w3-button w3-xlarge w3-teal"><i
+                                class="fas fa-volume-up"></i>
+                            Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio7" src="audio/ampermetras.wav"></audio>
+            </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+
+
+
+                <model-viewer ar src="models/aukstavoltis_diodas.glb" camera-controls poster="posters/aukstavoltis_diodas.png"
+                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
+                </model-viewer>
+
+                <div class="w3-container">
+                    <h3>Feritinė atminties matrica TSRS 1960 m.</h3>
+                    <p class="w3-opacity">Architect</p>
+                    <p>Feritinė matrica, kurioje kiekvienas feritinis žiedelis galėdavo atsiminti 1 bitą. Matricos talpa
+                        apie 1024 bitus. Patento savininkas IBM, tačiau ji buvo gaminama visame pasaulyje, dažniausiai
+                        aptinkama Japonijoje iki 1975 m. Naudota kaip vaizdinė priemonė aiškinant atminties veikimo
+                        principą.</p>
+                    <p>
+                        <button onclick="play('audio8', 'audio/aukstavoltis.wav')" class="w3-button w3-xlarge w3-teal"><i
+                                class="fas fa-volume-up"></i>
+                            Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio8" src="audio/aukstavoltis.wav"></audio>
+            </div>
+        </div>
+
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+
+
+
+                <model-viewer ar src="models/bmm.glb" camera-controls poster="posters/bmm.png"
+                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
+                </model-viewer>
+
+                <div class="w3-container">
+                    <h3>Feritinė atminties matrica TSRS 1960 m.</h3>
+                    <p class="w3-opacity">Architect</p>
+                    <p>Feritinė matrica, kurioje kiekvienas feritinis žiedelis galėdavo atsiminti 1 bitą. Matricos talpa
+                        apie 1024 bitus. Patento savininkas IBM, tačiau ji buvo gaminama visame pasaulyje, dažniausiai
+                        aptinkama Japonijoje iki 1975 m. Naudota kaip vaizdinė priemonė aiškinant atminties veikimo
+                        principą.</p>
+                    <p>
+                        <button onclick="play('audio9', 'audio/BMM.wav')" class="w3-button w3-xlarge w3-teal"><i
+                                class="fas fa-volume-up"></i>
+                            Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio9" src="audio/BMM.wav"></audio>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w3-row-padding">
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <model-viewer ar src="models/bystryca_2.glb" camera-controls poster="posters/bystryca_2.png"
+                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
+
+                </model-viewer>
+                <div class="w3-container">
+                    <h3>Perfokorta Lietuva 1960 m.</h3>
+                    <p class="w3-opacity">Architect</p>
+                    <p>Perfokorta - duomenų laikmena, kurią naudoja automatizuotos sistemos. Tai stačiakampio formos
+                        kortelė, pagaminta iš plono kartono. Informacija joje užrašoma išmušant skylutes. Patento
+                        savininkas IBM. Laikmeną plačiai naudojo programuotojai iki 1980 m. </p>
+                    <p>
+                        <button onclick="play('audio10', 'audio/aritmometras_bystrica.wav')" class="w3-button w3-xlarge w3-teal"><i
+                                class="fas fa-volume-up"></i>
+                            Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio10" src="audio/aritmometras_bystrica.wav"></audio>
+            </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+
+
+
+                <model-viewer ar src="models/egzaminatorius.glb" camera-controls poster="posters/egzaminatorius.png"
+                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
+                </model-viewer>
+
+                <div class="w3-container">
+                    <h3>Feritinė atminties matrica TSRS 1960 m.</h3>
+                    <p class="w3-opacity">Architect</p>
+                    <p>Feritinė matrica, kurioje kiekvienas feritinis žiedelis galėdavo atsiminti 1 bitą. Matricos talpa
+                        apie 1024 bitus. Patento savininkas IBM, tačiau ji buvo gaminama visame pasaulyje, dažniausiai
+                        aptinkama Japonijoje iki 1975 m. Naudota kaip vaizdinė priemonė aiškinant atminties veikimo
+                        principą.</p>
+                    <p>
+                        <button onclick="play('audio11', 'audio/elektroninis_egzaminatorius.wav')" class="w3-button w3-xlarge w3-teal"><i
+                                class="fas fa-volume-up"></i>
+                            Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio11" src="audio/elektroninis_egzaminatorius.wav"></audio>
+            </div>
+        </div>
+
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+
+
+
+                <model-viewer ar src="models/elektronika_bk_36_skaiciuotuvas.glb" camera-controls poster="posters/elektronika_bk_36_skaiciuotuvas.png"
+                              camera-orbit="-12deg 22.5deg 6.61m" field-of-view="45deg" reveal="interaction">
+                </model-viewer>
+
+                <div class="w3-container">
+                    <h3>Feritinė atminties matrica TSRS 1960 m.</h3>
+                    <p class="w3-opacity">Architect</p>
+                    <p>Feritinė matrica, kurioje kiekvienas feritinis žiedelis galėdavo atsiminti 1 bitą. Matricos talpa
+                        apie 1024 bitus. Patento savininkas IBM, tačiau ji buvo gaminama visame pasaulyje, dažniausiai
+                        aptinkama Japonijoje iki 1975 m. Naudota kaip vaizdinė priemonė aiškinant atminties veikimo
+                        principą.</p>
+                    <p>
+                        <button onclick="play('audio12', 'audio/skaiciuotuvas_bk.wav')" class="w3-button w3-xlarge w3-teal"><i
+                                class="fas fa-volume-up"></i>
+                            Klausyti įrašą
+                        </button>
+                    </p>
+
+                </div>
+                <audio id="audio12" src="audio/skaiciuotuvas_bk.wav"></audio>
+            </div>
+        </div>
+
+
+
+
+    <!-- Contact -->
+    <div class="w3-container" id="contact" style="margin-top:75px">
+
+        <!-- Footer Social Icons-->
+        <a target="_blank" href="https://www.facebook.com/eifmuziejus/"><i class="fab fa-facebook fa-10x"></i></a>
+        <!-- Masthead Avatar Image--><img style="margin-top: -90px" src="images/logo2.PNG" alt="" height="250px"
+                                          width="250px" class="w3-image">
+        <img style="margin-top: -90px" src="images/logo.png" alt="" height="250px" width="250px" class="w3-image">
+        <p>
+            <i class="fas fa-envelope"></i> E-MAIL: <a
+                href="mailto:m.gzegozevskis@gmail.com">m.gzegozevskis@gmail.com</a>
+        </p>
+
+
+    </div>
+
+    <!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">
+    &copy Copyright IT WORKS!, Marius Gžegoževskis</div>
+
+<script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+</script>
+<!-- Loads <model-viewer> for modern browsers: -->
+<script type="module"
+        src="https://unpkg.com/@google/model-viewer@v0.3.1/dist/model-viewer.js">
+</script>
+
+<!-- Loads <model-viewer> for old browsers like IE11: -->
+<script nomodule
+        src="https://unpkg.com/@google/model-viewer@v0.3.1/dist/model-viewer-legacy.js">
+</script>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
+
+
