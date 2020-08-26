@@ -12,5 +12,6 @@
     <orderEntry type="library" name="w3" level="application" />
     <orderEntry type="library" name="@magicleap/prismatic" level="application" />
     <orderEntry type="library" name="webxr-polyfill" level="application" />
+    <orderEntry type="library" name="list" level="application" />
   </component>
 </module>

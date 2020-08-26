@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{@magicleap/prismatic, a076d05399, w3, webxr-polyfill}" />
+    <file url="PROJECT" libraries="{@magicleap/prismatic, a076d05399, list, w3, webxr-polyfill}" />
     <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>
