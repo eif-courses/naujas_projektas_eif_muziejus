@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Helloaaa">
-      <change afterPath="$PROJECT_DIR$/public/audio/13_lozi.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio/GS_15.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio/IBM_1311.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio/elekronika580_stendas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio/imula.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio/kompiuterio_terminalas_ibm.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/eksponatai.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,19 +67,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Marius\Desktop\3dModel\public" />
-      <recent name="C:\Users\Marius\Desktop\3dModel" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\posters" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Marius\Desktop\3dModel\public\audio" />
       <recent name="C:\Users\Marius\Desktop\3dModel\public\js" />
       <recent name="C:\Users\Marius\Desktop\3dModel\public\images" />
       <recent name="C:\Users\Marius\Desktop\3dModel\js" />
       <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\Desktop\3dModel\public" />
+      <recent name="C:\Users\Marius\Desktop\3dModel" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\posters" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\models" />
     </key>
   </component>
   <component name="RunManager">
@@ -127,7 +121,8 @@
       <workItem from="1598435126315" duration="435000" />
       <workItem from="1598435707555" duration="205000" />
       <workItem from="1598474269038" duration="4739000" />
-      <workItem from="1598557570953" duration="7324000" />
+      <workItem from="1598557570953" duration="7874000" />
+      <workItem from="1598642137832" duration="8099000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1598306432711</created>
@@ -220,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598478694369</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Helloaaa">
+      <created>1598565446492</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598565446492</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,13 +294,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598478695631">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598565447686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598478695631" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1598478470562">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598565447686" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1598643373146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598478470562" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598643373146" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/eksponatai.html</url>
+          <line>277</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
