@@ -41,8 +41,71 @@
 
         }
 
+        const data = [
+            {"poster":"oscilografas.png", "audio":"oscilografas.wav", "model":"oscilografas.glb","title":"", "description":""},
+            {"poster":"aukstavoltis_diodas.png", "audio":"aukstavoltis.wav", "model":"aukstavoltis_diodas.glb","title":"", "description":""},
+            {"poster":"radijo_lempa_triodas.png", "audio":"radijo_lempa_triodas60kw.wav", "model":"radijo_lempa_triodas.glb","title":"", "description":""},
+            {"poster":"robik_pc.png", "audio":"butinis_kompiuteris_robik.wav", "model":"robik_pc.glb","title":"", "description":""},
+            {"poster":"detektoriaus_stendas.png", "audio":"detektoriaus_maketas.wav", "model":"detektoriaus_stendas3d.glb","title":"", "description":""},
+            {"poster":"egzaminatorius.png", "audio":"elektroninis_egzaminatorius.wav", "model":"egzaminatorius.glb","title":"", "description":""},
+            {"poster":"elektronika_bk_36_skaiciuotuvas.png", "audio":"skaiciuotuvas_bk.wav", "model":"elektronika_bk_36_skaiciuotuvas.glb","title":"", "description":""},
+            {"poster":"elektroninis_vamzdis_lozi13.png", "audio":"13_lozi.wav", "model":"elektroninis_vamzdis_lozi13.glb","title":"", "description":""},
+            {"poster":"eletronika580.png", "audio":"elekronika580_stendas.wav", "model":"eletronika580.glb","title":"", "description":""},
+            {"poster":"feritine_matrica.png", "audio":"feritine_matrica.wav", "model":"feritine_matrica.glb","title":"", "description":""},
+            {"poster":"generatoriusg15.png", "audio":"GS_15.wav", "model":"generatoriusg15.glb","title":"", "description":""},
+            {"poster":"gradynas_stendas1994.png", "audio":"skaitmeniniu_grandynu_stendas.wav", "model":"grandynas_stendas_1994.glb","title":"", "description":""},
+            {"poster":"ibm_diskai1311.png", "audio":"IBM_1311.wav", "model":"ibm_diskai1311.glb","title":"", "description":""},
+            {"poster":"ibm_kompiuteris_terminalas.png", "audio":"kompiuterio_terminalas_ibm.wav", "model":"ibm_kompiuteris_terminalas.glb","title":"", "description":""},
+            {"poster":"imula2_radija.png", "audio":"imula.wav", "model":"imula2_radija.glb","title":"", "description":""},
+            {"poster":"kd_crown_maketa.png", "audio":"cd_crown.wav", "model":"kd_crown_maketa.glb","title":"", "description":""},
+            {"poster":"komsolec_zalia_radija.png", "audio":"kosmolec.wav", "model":"komsolec_zalia_radija.glb","title":"", "description":""},
+            {"poster":"komutatorius.png", "audio":"kamutatorius.wav", "model":"komutatorius.glb","title":"", "description":""},
+            {"poster":"kondensatorius.png", "audio":"kondensatorius.wav", "model":"kondensatorius.glb","title":"", "description":""},
+            {"poster":"ampermetras.png", "audio":"ampermetras.wav", "model":"ampermetras.glb","title":"", "description":""},
+            {"poster":"laboratorinis_varzynas_mazas.png", "audio":"varzynas_not_sure1956.wav", "model":"laboratorinis_varzynas_mazas.glb","title":"", "description":""},
+            {"poster":"magnetola_ELFA_LT.png", "audio":"juostinis_stereo_elfa.wav", "model":"magnetola_ELFA_LT.glb","title":"", "description":""},
+            {"poster":"mobilus_vbox_motorola.png", "audio":"motorola_box.wav", "model":"","title":"mobilus_vbox_motorola.glb", "description":""},
+            {"poster":"nesiojamas_juodas_laptopas.png", "audio":"apsilankykite.wav", "model":"nesiojamas_juodas_laptopas.glb","title":"", "description":""},
+            {"poster":"acer_anywhere_laptop.png", "audio":"laptopas_acer_ak.wav", "model":"acer_anywhere_laptop.glb","title":"", "description":""},
+            {"poster":"perfokorta.png", "audio":"perfokorta.wav", "model":"perfokorta.glb","title":"", "description":""},
+            {"poster":"power_macintosh.png", "audio":"powerMacintosh.wav", "model":"power_macintosh.glb","title":"", "description":""},
+            {"poster":"radija_veras225_beGarsinimo.png", "audio":"apsilankykite.wav", "model":"radija_veras225_beGarsinimo.glb","title":"", "description":""},
+            {"poster":"bmm.png", "audio":"BMM.wav", "model":"bmm.glb","title":"", "description":""},
+            {"poster":"radijo_melodija_plokstelinis.png", "audio":"radijola_vega.wav", "model":"radijo_melodija_plokstelinis.glb","title":"", "description":""},
+            {"poster":"bystryca_2.png", "audio":"aritmometras_bystrica.wav", "model":"bystryca_2.glb","title":"", "description":""},
+            {"poster":"rp_255_radija.png", "audio":"rp_255_radio_stendas.wav", "model":"rp_255_radija.glb","title":"", "description":""},
+            {"poster":"santanka_buitinis.png", "audio":"kompiuteris_santaka.wav", "model":"santaka_buitinis.glb","title":"", "description":""},
+            {"poster":"silelis_tc32.png", "audio":"silelis32tc.wav", "model":"silelis_tc32.glb","title":"", "description":""},
+            {"poster":"telegrafo_raktas.png", "audio":"telegrafo_raktas.wav", "model":"telegrafo_raktas.glb","title":"", "description":""},
+            {"poster":"televiziniu_signalu_gis_generatorius.png", "audio":"televiziniu_signalu_generatorius.wav", "model":"televiziniu_signalu_gis_generatorius.glb","title":"", "description":""},
+            {"poster":"tesla_lempa.png", "audio":"radijo_lempa_tesla.wav", "model":"tesla_lempa.glb","title":"", "description":""},
+            {"poster":"ukraina5_projektorius.png", "audio":"kino_projektorius_ukraina5.wav", "model":"ukraina5_projektorius.glb","title":"", "description":""},
+            {"poster":"universalus_matuoklis.png", "audio":"universalus_matuoklistl4.wav", "model":"universalus_matuoklis.glb","title":"", "description":""},
+            {"poster":"varzynas_didelis_mcp60.png", "audio":"msp_60_varzynas.wav", "model":"varzynas_didelis_mcp60.glb","title":"", "description":""},
+            {"poster":"vefta_12_telefonas.png", "audio":"vefta_1994_telefonas.wav", "model":"vefta_12_telefonas.glb","title":"", "description":""},
+            {"poster":"vefta_bagta50_telefonas.png", "audio":"vefta_bagta_1950.wav", "model":"vefta_bagta50_telefonas.glb","title":"", "description":""},
+            {"poster":"vesna_202_radija.png", "audio":"kasetinis_magnetofonas_vesna.wav", "model":"vesna_202_radija.glb","title":"", "description":""},
+            {"poster":"video_magnetofono_stentas_eif.png", "audio":"vaizdo_magnetofono_stendas.wav", "model":"video_magnetofono_stentas_eif.glb","title":"", "description":""},
+            {"poster":"voltmetras.png", "audio":"voltmetras.wav", "model":"voltmetras.glb","title":"", "description":""},
+            {"poster":"zigzagine_antena.png", "audio":"zigzagine_antena.wav", "model":"zigzagine_antena.glb","title":"", "description":""},
+
+        ]
+
+
+
+
+
+
+
+
+
 
     </script>
+
+
+
+
+
 
 
     <style>

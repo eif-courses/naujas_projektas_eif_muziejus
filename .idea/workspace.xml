@@ -19,7 +19,39 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Helloaaa">
+    <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Updated UI/UX">
+      <change afterPath="$PROJECT_DIR$/public/audio/apsilankykite.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/butinis_kompiuteris_robik.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/cd_crown.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/imtuvo_sandaros_stendas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/juostinis_stereo_elfa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/kamutatorius.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/kasetinis_magnetofonas_vesna.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/kino_projektorius_ukraina5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/kompiuteris_santaka.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/kondensatorius.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/kosmolec.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/marsrutizatorius_racal.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/motorola_box.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/orines_linijos_sujungimas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/philiphs_radija_677A.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/powerMacintosh.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/radijo_lempa_tesla.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/radijo_lempa_triodas60kw.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/radijola_vega.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/rp_255_radio_stendas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/silelio_maketas405D.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/silelis32tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/skaitmeniniu_grandynu_stendas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/telegrafo_raktas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/televiziniu_signalu_generatorius.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/universalus_matuoklistl4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/vaizdo_magnetofono_stendas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/varzynas_not_sure1956.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/vefta_1994_telefonas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/vefta_bagta_1950.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/voltmetras.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/zigzagine_antena.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/eksponatai.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai.html" afterDir="false" />
@@ -67,19 +99,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Marius\Desktop\3dModel\public\audio" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\public\js" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\public\images" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\js" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Marius\Desktop\3dModel\public" />
       <recent name="C:\Users\Marius\Desktop\3dModel" />
       <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
       <recent name="C:\Users\Marius\Desktop\3dModel\posters" />
       <recent name="C:\Users\Marius\Desktop\3dModel\models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\Desktop\3dModel\public\audio" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\public\js" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\public\images" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\js" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
     </key>
   </component>
   <component name="RunManager">
@@ -122,7 +154,8 @@
       <workItem from="1598435707555" duration="205000" />
       <workItem from="1598474269038" duration="4739000" />
       <workItem from="1598557570953" duration="7874000" />
-      <workItem from="1598642137832" duration="8099000" />
+      <workItem from="1598642137832" duration="8302000" />
+      <workItem from="1598698401461" duration="3793000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1598306432711</created>
@@ -222,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598565446492</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated UI/UX">
+      <created>1598650477741</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598650477741</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,17 +283,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello" />
     <MESSAGE value="Helloaaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Helloaaa" />
+    <MESSAGE value="Updated UI/UX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated UI/UX" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598382223551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598382223551" />
-    <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598477340741">
+    <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598703484591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598477340741" />
+    <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598703484591" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598384484523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -294,22 +335,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598565447686">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598650479094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598565447686" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1598643373146">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598650479094" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1598703915202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598643373146" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598703915202" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/eksponatai.html</url>
-          <line>277</line>
-          <properties lambdaOrdinal="-1" />
+          <line>340</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
