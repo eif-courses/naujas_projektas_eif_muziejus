@@ -455,8 +455,9 @@
 
         .active a,
         #pagin a:hover {
-            background-color: #ffcc5c !important;
-            border-bottom: 3px solid #ffcc5c;
+            background-color: #00bcd4!important;
+            border-bottom: 3px solid #00bcd4;
+            color: white!important;
         }
 
         span {
@@ -501,6 +502,20 @@
             background-color: #00bcd4!important;
         }
 
+        /* Float four columns side by side */
+        .column {
+            float: left;
+            width: 100%;
+            padding: 0 10px;
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
 
 
 
@@ -580,21 +595,21 @@
         <hr style="width:100%;border:5px solid #2196F3!important;" class="w3-round">
 
 
-        <div class="w3-panel w3-pale-yellow w3-border">
-            <h3>SVARBU!</h3>
-            <p>Paspauskite ant eksponato ir peržiūrėkite 3D modelį! Laikant pelės kairį klavišą galite sukioti 360
-                laipsniu, pelės ratukas priartina. Mobilus telefonai atitinkamai sukioti gali su touchscreen.</p>
-        </div>
+<!--        <div class="w3-panel w3-pale-yellow w3-border">-->
+<!--            <h3>SVARBU!</h3>-->
+<!--            <p>Paspauskite ant eksponato ir peržiūrėkite 3D modelį! Laikant pelės kairį klavišą galite sukioti 360-->
+<!--                laipsniu, pelės ratukas priartina. Mobilus telefonai atitinkamai sukioti gali su touchscreen.</p>-->
+<!--        </div>-->
 
 
-        <p>Šiuos eksponatus galite rasti Vilniaus kolegijos elektronikos ir informatikos fakultete elektronikos
-            muziejuje. Žemiau galite rasti trumpus aprašymus bei 3D modelius peržiūrėti naršyklėje tiesiog paspaudus ant
-            paveikslėlio ir pasukinėjant į šoną. Taip pat yra pridėti ir garso įrašai apie kiekvieną eksponatą.
-            Norintiems pasivaikščioti po kolegiją ir muziejų galite atsisiųsti bandomąją vaizdo žaidimo versiją Windows
-            x64 platformai <a
-                    href="https://vikolt-my.sharepoint.com/:u:/g/personal/m_gzegozevskis_ad_viko_lt/Efej1hxgRldGn2hyY_ClsWIBioUGDdGdElKsz5-esLDpLg?e=IzHmzj"
-                    target="_blank">čia</a>.
-        </p>
+<!--        <p>Šiuos eksponatus galite rasti Vilniaus kolegijos elektronikos ir informatikos fakultete elektronikos-->
+<!--            muziejuje. Žemiau galite rasti trumpus aprašymus bei 3D modelius peržiūrėti naršyklėje tiesiog paspaudus ant-->
+<!--            paveikslėlio ir pasukinėjant į šoną. Taip pat yra pridėti ir garso įrašai apie kiekvieną eksponatą.-->
+<!--            Norintiems pasivaikščioti po kolegiją ir muziejų galite atsisiųsti bandomąją vaizdo žaidimo versiją Windows-->
+<!--            x64 platformai <a-->
+<!--                    href="https://vikolt-my.sharepoint.com/:u:/g/personal/m_gzegozevskis_ad_viko_lt/Efej1hxgRldGn2hyY_ClsWIBioUGDdGdElKsz5-esLDpLg?e=IzHmzj"-->
+<!--                    target="_blank">čia</a>.-->
+<!--        </p>-->
     </div>
 
 
@@ -727,15 +742,28 @@
                         <!--                            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>-->
 
                         <div id="id01" class="w3-modal">
-                            <div class="w3-modal-content w3-card-4">
 
-                                <header class="w3-container w3-blue">
+
+
+
+                            <div class="w3-modal-content w3-card-4">
+                                <header class="w3-container w3-white">
         <span onclick="document.getElementById('id01').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
-                                    <h2>Laboratorinis detektoriaus maketas Lietuva 1976 m.</h2>
+                                    <p style="padding-right: 40px; padding-left: 20px">
+                                        <strong>Laboratorinis detektoriaus maketas Lietuva 1976 m. </strong>Laboratorinis
+                                        maketas buvo naudojamas laboratorinių darbų metu signalų ir grandinių
+                                        laboratorijoje.
+                                    </p>
+                                    <button style="margin-left: 20px" onclick="play('audio', 'audio/detektoriaus_maketas.wav')"
+                                            class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                                    </button>
+
                                 </header>
                                 <br/>
                                 <div class="w3-container">
+
+
                                     <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
                                                   style="width:100%; height: 450px;background-color: darkred;"
                                                   src="models/detektoriaus_stendas3d.glb"
@@ -743,21 +771,13 @@
                                                   poster="posters/detektoriaus_stendas.png" camera-controls
                                                   camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
                                     </model-viewer>
-
-                                    <br/>
-                                    <button onclick="play('audio', 'audio/detektoriaus_maketas.wav')"
-                                            class="w3-button w3-teal"><i class="fas fa-volume-up"></i>
-                                    </button>
-
-                                    <p>
-                                        <strong>Laboratorinis detektoriaus maketas Lietuva 1976 m. </strong>Laboratorinis
-                                        maketas buvo naudojamas laboratorinių darbų metu signalų ir grandinių
-                                        laboratorijoje.
-                                    </p>
+                                        <p></p>
 
                                 </div>
 
                             </div>
+
+
                         </div>
                         <audio id="audio" src="audio/detektoriaus_maketas.wav"></audio>
                     </div>
