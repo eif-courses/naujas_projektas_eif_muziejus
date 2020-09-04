@@ -20,59 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Added All Models LT lang">
-      <change afterPath="$PROJECT_DIR$/public/audio_en/13_lozi.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/BMM.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/GS_15.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/IBM_1311.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/ampermetras.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/apsilankykite.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/aritmometras_bystrica.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/aukstavoltis.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/butinis_kompiuteris_robik.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/cd_crown.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/detektoriaus_maketas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/elekronika580_stendas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/elektroninis_egzaminatorius.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/feritine_matrica.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/imtuvo_stendas_superheroidinio_en.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/imula.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/juostinis_stereo_elfa.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/kamutatorius.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/kasetinis_magnetofonas_vesna.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/kino_projektorius_ukraina5.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/kompiuterio_terminalas_ibm.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/kompiuteris_santaka.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/kondensatorius.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/kosmolec.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/laptopas_acer_ak.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/marsrutizatorius_racal_en.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/motorola_box.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/msp_60_varzynas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/oscilografas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/perfokorta.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/powerMacintosh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/radijo_lempa_tesla.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/radijo_lempa_triodas60kw.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/radijo_philiphs677A_en.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/radijola_vega.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/rp_255_radio_stendas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/silelis32tc.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/silelis_stendas_405D_en.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/skaiciuotuvas_bk.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/skaitmeniniu_grandynu_stendas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/stendas_vaem_1967.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/telegrafo_raktas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/televiziniu_signalu_generatorius.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/universalus_matuoklistl4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/vaizdo_magnetofono_stendas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/varzynas_not_sure1956.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/vefta_1994_telefonas.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/vefta_bagta_1950.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/voltmetras.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/audio_en/zigzagine_antena.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/eksponatai_EN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/eksponatai_RU.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/eksponatai.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/eksponatai_EN.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai_EN.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +127,7 @@
       <workItem from="1598698401461" duration="6626000" />
       <workItem from="1598800772557" duration="16560000" />
       <workItem from="1598869450719" duration="2481000" />
-      <workItem from="1599215995031" duration="14080000" />
+      <workItem from="1599215995031" duration="16549000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1598306432711</created>
@@ -325,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599225815209</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added All Models LT lang">
+      <created>1599232345020</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599232345021</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,10 +359,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599225816641">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599232346485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599225816641" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599232346485" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1599229095240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

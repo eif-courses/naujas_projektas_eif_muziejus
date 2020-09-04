@@ -539,7 +539,7 @@
                             <button onclick="document.getElementById('id${i}').style.display='block'"
                                     class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                             </button>
-                            <button onclick="play('audio${i}', 'audio/${data[i].audio}')"
+                            <button onclick="play('audio${i}', 'audio_en/${data[i].audio}')"
                                     class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                             </button>
                             <p></p>
@@ -553,7 +553,7 @@
                                         <strong>${data[i].title}</strong> ${data[i].description}
                                     </p>
                                     <button style="margin-left: 20px"
-                                            onclick="play('audio${i}', 'audio/${data[i].audio}')"
+                                            onclick="play('audio${i}', 'audio_en/${data[i].audio}')"
                                             class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                     </button>
 
@@ -577,13 +577,13 @@
 
 
                         </div>
-                        <audio id="audio${i}" src="audio/${data[i].audio}"></audio>
+                        <audio id="audio${i}" src="audio_en/${data[i].audio}"></audio>
                     </div>
                 </div>`);
             }
 
         }
-        modeliai()
+       // modeliai()
     </script>
 </head>
 
@@ -598,32 +598,32 @@
 
     <br>
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
-       style="width:100%;font-size:22px">Uždaryti meniu</a>
+       style="width:100%;font-size:22px">Close menu</a>
     <div class="w3-container">
-        <h3 class="w3-padding-64"><b>EIF MUZIEJUS</b></h3>
+        <h3 class="w3-padding-64"><b>EIF MUSEUM</b></h3>
     </div>
     <div class="w3-bar-block">
         <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img width="32px" height="32px"
                                                                                            src="posters/silelis_tc32.png"><span
-                style="padding-left: 10px;">Pradžia</span></a>
+                style="padding-left: 10px;">Home</span></a>
         <a href="index.html#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img
                 width="32px"
                 height="32px"
                 src="posters/egzaminatorius.png"><span
-                style="padding-left: 10px;">Apie projektą</span></a>
+                style="padding-left: 10px;">About Project</span></a>
         <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white active"><img width="32px"
                                                                                                            height="32px"
                                                                                                            src="posters/aukstavoltis_diodas.png">
-            <span style="padding-left: 10px;">Eksponatai</span></a>
+            <span style="padding-left: 10px;">Digital Exhibitions</span></a>
         <a href="index.html#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img
                 width="32px"
                 height="32px"
                 src="posters/gradynas_stendas1994.png"><span
-                style="padding-left: 10px;">Kūrėjams</span></a>
+                style="padding-left: 10px;">For Developers</span></a>
         <a href="index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img width="32px"
                                                                                                             height="32px"
                                                                                                             src="posters/generatoriusg15.png"><span
-                style="padding-left: 10px;">Kontaktai</span></a>
+                style="padding-left: 10px;">Contacts</span></a>
     </div>
 
     <p></p>
@@ -638,7 +638,7 @@
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
     <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
-    <span>EIF MUZIEJUS</span>
+    <span>EIF MUSEUM</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -656,7 +656,7 @@
     <div class="w3-container" id="designers" style="margin-top:75px">
 
 
-        <h1 class="w3-xxxlarge w3-text-blue"><b>Eksponatai</b></h1>
+        <h1 class="w3-xxxlarge w3-text-blue"><b>Digital Exhibitions</b></h1>
         <hr style="width:100%;border:5px solid #2196F3!important;" class="w3-round">
 
 
@@ -679,350 +679,343 @@
 
 
     <section id="body">
-
-
-        <div class="content">
-            <div class="w3-row-padding">
-
-                <div class="w3-col m4 w3-margin-bottom">
-                    <div class="w3-light-grey">
-                        <header class="w3-container w3-blue">Oscilografas S1-19A TSRS 1972 m.</header>
-                        <model-viewer id="lazy-load"
-                                      src="models/oscilografas.glb"
-                                      exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                      poster="posters/oscilografas.png" camera-controls
-                                      camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
-                        >
-                        </model-viewer>
-                        <div class="w3-container"
-                             style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
-                            <button onclick="document.getElementById('id0').style.display='block'"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
-                            </button>
-                            <button onclick="play('audio0', 'audio/oscilografas.wav')"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                            </button>
-                            <p></p>
-                        </div>
-                        <div id="id0" class="w3-modal">
-                            <div class="w3-modal-content w3-card-4">
-                                <header class="w3-container w3-white">
+        <div class="content"><div class="w3-row-padding">
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-light-grey">
+                    <header class="w3-container w3-blue">Oscillograph S1-19A USSR 1972</header>
+                    <model-viewer id="lazy-load"
+                                  src="models/oscilografas.glb"
+                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                  poster="posters/oscilografas.png" camera-controls
+                                  camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
+                    >
+                    </model-viewer>
+                    <div class="w3-container"
+                         style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
+                        <button onclick="document.getElementById('id0').style.display='block'"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
+                        </button>
+                        <button onclick="play('audio0', 'audio_en/oscilografas.wav')"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                        </button>
+                        <p></p>
+                    </div>
+                    <div id="id0" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-white">
         <span onclick="document.getElementById('id0').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
-                                    <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                        <strong>Oscilografas S1-19A TSRS 1972 m.</strong> Analoginis - lempinis oscilografas, skirtas tirti iki 50 voltų amplitudes ir iki 1Mhz (megaherco) dažnio signalams.
-                                    </p>
-                                    <button style="margin-left: 20px"
-                                            onclick="play('audio0', 'audio/oscilografas.wav')"
-                                            class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                                    </button>
+                                <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
+                                    <strong>Oscillograph S1-19A USSR 1972</strong> Analog - a light bulb oscilograph for testing amplitudes up to 50 volts and up to 1Mhz (megahertz) frequency signals.
+                                </p>
+                                <button style="margin-left: 20px"
+                                        onclick="play('audio0', 'audio_en/oscilografas.wav')"
+                                        class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                                </button>
 
-                                </header>
-                                <br/>
-                                <div class="w3-container">
+                            </header>
+                            <br/>
+                            <div class="w3-container">
 
 
-                                    <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
-                                                  style="width:100%; height: 450px;background-color: darkred;"
-                                                  src="models/oscilografas.glb"
-                                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                                  poster="posters/oscilografas.png" camera-controls
-                                                  camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
-                                    </model-viewer>
-                                    <p></p>
-
-                                </div>
+                                <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
+                                              style="width:100%; height: 450px;background-color: darkred;"
+                                              src="models/oscilografas.glb"
+                                              exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                              poster="posters/oscilografas.png" camera-controls
+                                              camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
+                                </model-viewer>
+                                <p></p>
 
                             </div>
 
-
                         </div>
-                        <audio id="audio0" src="audio/oscilografas.wav"></audio>
+
+
                     </div>
-                </div>
-                <div class="w3-col m4 w3-margin-bottom">
-                    <div class="w3-light-grey">
-                        <header class="w3-container w3-blue">Aukštavoltis diodas TSRS 1970 m.</header>
-                        <model-viewer id="lazy-load"
-                                      src="models/aukstavoltis_diodas.glb"
-                                      exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                      poster="posters/aukstavoltis_diodas.png" camera-controls
-                                      camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
-                        >
-                        </model-viewer>
-                        <div class="w3-container"
-                             style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
-                            <button onclick="document.getElementById('id1').style.display='block'"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
-                            </button>
-                            <button onclick="play('audio1', 'audio/aukstavoltis.wav')"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                            </button>
-                            <p></p>
-                        </div>
-                        <div id="id1" class="w3-modal">
-                            <div class="w3-modal-content w3-card-4">
-                                <header class="w3-container w3-white">
-        <span onclick="document.getElementById('id1').style.display='none'"
-              class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
-                                    <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                        <strong>Aukštavoltis diodas TSRS 1970 m.</strong> Diodas skirtas darbui aukštos įtampos daugiau kaip 500 voltų diapazone. Naudojamas kaip lyginimo elementas sudarant elektros grandines. Naudotas elektrotechnikos laboratorijoje.
-                                    </p>
-                                    <button style="margin-left: 20px"
-                                            onclick="play('audio1', 'audio/aukstavoltis.wav')"
-                                            class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                                    </button>
-
-                                </header>
-                                <br/>
-                                <div class="w3-container">
-
-
-                                    <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
-                                                  style="width:100%; height: 450px;background-color: darkred;"
-                                                  src="models/aukstavoltis_diodas.glb"
-                                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                                  poster="posters/aukstavoltis_diodas.png" camera-controls
-                                                  camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
-                                    </model-viewer>
-                                    <p></p>
-
-                                </div>
-
-                            </div>
-
-
-                        </div>
-                        <audio id="audio1" src="audio/aukstavoltis.wav"></audio>
-                    </div>
-                </div>
-                <div class="w3-col m4 w3-margin-bottom">
-                    <div class="w3-light-grey">
-                        <header class="w3-container w3-blue">Radijo lempa GU-23A TSRS 1987 m.</header>
-                        <model-viewer id="lazy-load"
-                                      src="models/radijo_lempa_triodas.glb"
-                                      exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                      poster="posters/radijo_lempa_triodas.png" camera-controls
-                                      camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
-                        >
-                        </model-viewer>
-                        <div class="w3-container"
-                             style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
-                            <button onclick="document.getElementById('id2').style.display='block'"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
-                            </button>
-                            <button onclick="play('audio2', 'audio/radijo_lempa_triodas60kw.wav')"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                            </button>
-                            <p></p>
-                        </div>
-                        <div id="id2" class="w3-modal">
-                            <div class="w3-modal-content w3-card-4">
-                                <header class="w3-container w3-white">
-        <span onclick="document.getElementById('id2').style.display='none'"
-              class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
-                                    <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                        <strong>Radijo lempa GU-23A TSRS 1987 m.</strong> Radijo lempa - triodas skirta galingiems (iki 60kW) radijo siųstuvams. Lempa aušinama vandeniu. Naudota kaip vaizdinė priemonė.
-                                    </p>
-                                    <button style="margin-left: 20px"
-                                            onclick="play('audio2', 'audio/radijo_lempa_triodas60kw.wav')"
-                                            class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                                    </button>
-
-                                </header>
-                                <br/>
-                                <div class="w3-container">
-
-
-                                    <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
-                                                  style="width:100%; height: 450px;background-color: darkred;"
-                                                  src="models/radijo_lempa_triodas.glb"
-                                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                                  poster="posters/radijo_lempa_triodas.png" camera-controls
-                                                  camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
-                                    </model-viewer>
-                                    <p></p>
-
-                                </div>
-
-                            </div>
-
-
-                        </div>
-                        <audio id="audio2" src="audio/radijo_lempa_triodas60kw.wav"></audio>
-                    </div>
+                    <audio id="audio0" src="audio_en/oscilografas.wav"></audio>
                 </div>
             </div>
-            <div class="w3-row-padding">
-                <div class="w3-col m4 w3-margin-bottom">
-                    <div class="w3-light-grey">
-                        <header class="w3-container w3-blue">Buitinis kompiuteris ROBIK TSRS 1987 m.</header>
-                        <model-viewer id="lazy-load"
-                                      src="models/robik_pc.glb"
-                                      exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                      poster="posters/robik_pc.png" camera-controls
-                                      camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
-                        >
-                        </model-viewer>
-                        <div class="w3-container"
-                             style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
-                            <button onclick="document.getElementById('id3').style.display='block'"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
-                            </button>
-                            <button onclick="play('audio3', 'audio/butinis_kompiuteris_robik.wav')"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                            </button>
-                            <p></p>
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-light-grey">
+                    <header class="w3-container w3-blue">High-level diode in the USSR 1970</header>
+                    <model-viewer id="lazy-load"
+                                  src="models/aukstavoltis_diodas.glb"
+                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                  poster="posters/aukstavoltis_diodas.png" camera-controls
+                                  camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
+                    >
+                    </model-viewer>
+                    <div class="w3-container"
+                         style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
+                        <button onclick="document.getElementById('id1').style.display='block'"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
+                        </button>
+                        <button onclick="play('audio1', 'audio_en/aukstavoltis.wav')"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                        </button>
+                        <p></p>
+                    </div>
+                    <div id="id1" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-white">
+        <span onclick="document.getElementById('id1').style.display='none'"
+              class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
+                                <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
+                                    <strong>High-level diode in the USSR 1970</strong> The diode is designed to work in a range of high voltages of more than 500 volts. Used as an ironing element for the formation of electrical circuits. Used in an electrical laboratory.
+                                </p>
+                                <button style="margin-left: 20px"
+                                        onclick="play('audio1', 'audio_en/aukstavoltis.wav')"
+                                        class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                                </button>
+
+                            </header>
+                            <br/>
+                            <div class="w3-container">
+
+
+                                <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
+                                              style="width:100%; height: 450px;background-color: darkred;"
+                                              src="models/aukstavoltis_diodas.glb"
+                                              exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                              poster="posters/aukstavoltis_diodas.png" camera-controls
+                                              camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
+                                </model-viewer>
+                                <p></p>
+
+                            </div>
+
                         </div>
-                        <div id="id3" class="w3-modal">
-                            <div class="w3-modal-content w3-card-4">
-                                <header class="w3-container w3-white">
+
+
+                    </div>
+                    <audio id="audio1" src="audio_en/aukstavoltis.wav"></audio>
+                </div>
+            </div>
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-light-grey">
+                    <header class="w3-container w3-blue">Radio lamp GU-23A USSR 1987</header>
+                    <model-viewer id="lazy-load"
+                                  src="models/radijo_lempa_triodas.glb"
+                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                  poster="posters/radijo_lempa_triodas.png" camera-controls
+                                  camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
+                    >
+                    </model-viewer>
+                    <div class="w3-container"
+                         style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
+                        <button onclick="document.getElementById('id2').style.display='block'"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
+                        </button>
+                        <button onclick="play('audio2', 'audio_en/radijo_lempa_triodas60kw.wav')"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                        </button>
+                        <p></p>
+                    </div>
+                    <div id="id2" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-white">
+        <span onclick="document.getElementById('id2').style.display='none'"
+              class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
+                                <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
+                                    <strong>Radio lamp GU-23A USSR 1987</strong> Radio lamp - triode designed for powerful (up to 60kW) radio transmitters. Cool the lamp with water. Used as a visual tool.
+                                </p>
+                                <button style="margin-left: 20px"
+                                        onclick="play('audio2', 'audio_en/radijo_lempa_triodas60kw.wav')"
+                                        class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                                </button>
+
+                            </header>
+                            <br/>
+                            <div class="w3-container">
+
+
+                                <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
+                                              style="width:100%; height: 450px;background-color: darkred;"
+                                              src="models/radijo_lempa_triodas.glb"
+                                              exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                              poster="posters/radijo_lempa_triodas.png" camera-controls
+                                              camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
+                                </model-viewer>
+                                <p></p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <audio id="audio2" src="audio_en/radijo_lempa_triodas60kw.wav"></audio>
+                </div>
+            </div></div><div class="w3-row-padding">
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-light-grey">
+                    <header class="w3-container w3-blue">Household computer ROBIK USSR 1987.</header>
+                    <model-viewer id="lazy-load"
+                                  src="models/robik_pc.glb"
+                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                  poster="posters/robik_pc.png" camera-controls
+                                  camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
+                    >
+                    </model-viewer>
+                    <div class="w3-container"
+                         style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
+                        <button onclick="document.getElementById('id3').style.display='block'"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
+                        </button>
+                        <button onclick="play('audio3', 'audio_en/butinis_kompiuteris_robik.wav')"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                        </button>
+                        <p></p>
+                    </div>
+                    <div id="id3" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-white">
         <span onclick="document.getElementById('id3').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
-                                    <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                        <strong>Buitinis kompiuteris ROBIK TSRS 1987 m.</strong> Tarybinis asmeninio kompiuterio ZX Spektrum klonas su vakarietišku 8 bitų ST-Z80A mikroprocesoriumi. Operacinė sistema BASIC buvo įkraunama iš kasetinio magnetofono, o vaizdas rodomas televizoriuje.
-                                    </p>
-                                    <button style="margin-left: 20px"
-                                            onclick="play('audio3', 'audio/butinis_kompiuteris_robik.wav')"
-                                            class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                                    </button>
+                                <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
+                                    <strong>Household computer ROBIK USSR 1987.</strong> Soviet clone of personal computer ZX Spektrum with western 8-bit ST-Z80A microprocessor. The BASIC operating system was booted from a cassertic tape recorder, and the image is displayed on the TV.
+                                </p>
+                                <button style="margin-left: 20px"
+                                        onclick="play('audio3', 'audio_en/butinis_kompiuteris_robik.wav')"
+                                        class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                                </button>
 
-                                </header>
-                                <br/>
-                                <div class="w3-container">
+                            </header>
+                            <br/>
+                            <div class="w3-container">
 
 
-                                    <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
-                                                  style="width:100%; height: 450px;background-color: darkred;"
-                                                  src="models/robik_pc.glb"
-                                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                                  poster="posters/robik_pc.png" camera-controls
-                                                  camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
-                                    </model-viewer>
-                                    <p></p>
-
-                                </div>
+                                <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
+                                              style="width:100%; height: 450px;background-color: darkred;"
+                                              src="models/robik_pc.glb"
+                                              exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                              poster="posters/robik_pc.png" camera-controls
+                                              camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
+                                </model-viewer>
+                                <p></p>
 
                             </div>
 
+                        </div>
 
-                        </div>
-                        <audio id="audio3" src="audio/butinis_kompiuteris_robik.wav"></audio>
+
                     </div>
+                    <audio id="audio3" src="audio_en/butinis_kompiuteris_robik.wav"></audio>
                 </div>
-                <div class="w3-col m4 w3-margin-bottom">
-                    <div class="w3-light-grey">
-                        <header class="w3-container w3-blue">Laboratorinis detektoriaus maketas Lietuva 1976 m.</header>
-                        <model-viewer id="lazy-load"
-                                      src="models/detektoriaus_stendas3d.glb"
-                                      exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                      poster="posters/detektoriaus_stendas.png" camera-controls
-                                      camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
-                        >
-                        </model-viewer>
-                        <div class="w3-container"
-                             style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
-                            <button onclick="document.getElementById('id4').style.display='block'"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
-                            </button>
-                            <button onclick="play('audio4', 'audio/detektoriaus_maketas.wav')"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                            </button>
-                            <p></p>
-                        </div>
-                        <div id="id4" class="w3-modal">
-                            <div class="w3-modal-content w3-card-4">
-                                <header class="w3-container w3-white">
+            </div>
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-light-grey">
+                    <header class="w3-container w3-blue">Laboratory detector layout Lithuania 1976</header>
+                    <model-viewer id="lazy-load"
+                                  src="models/detektoriaus_stendas3d.glb"
+                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                  poster="posters/detektoriaus_stendas.png" camera-controls
+                                  camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
+                    >
+                    </model-viewer>
+                    <div class="w3-container"
+                         style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
+                        <button onclick="document.getElementById('id4').style.display='block'"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
+                        </button>
+                        <button onclick="play('audio4', 'audio_en/detektoriaus_maketas.wav')"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                        </button>
+                        <p></p>
+                    </div>
+                    <div id="id4" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-white">
         <span onclick="document.getElementById('id4').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
-                                    <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                        <strong>Laboratorinis detektoriaus maketas Lietuva 1976 m.</strong> Laboratorinis maketas buvo naudojamas laboratorinių darbų metu signalų ir grandinių laboratorijoje.
-                                    </p>
-                                    <button style="margin-left: 20px"
-                                            onclick="play('audio4', 'audio/detektoriaus_maketas.wav')"
-                                            class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                                    </button>
+                                <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
+                                    <strong>Laboratory detector layout Lithuania 1976</strong> The laboratory layout was used during laboratory work in the laboratory of signals and circuits.
+                                </p>
+                                <button style="margin-left: 20px"
+                                        onclick="play('audio4', 'audio_en/detektoriaus_maketas.wav')"
+                                        class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                                </button>
 
-                                </header>
-                                <br/>
-                                <div class="w3-container">
+                            </header>
+                            <br/>
+                            <div class="w3-container">
 
 
-                                    <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
-                                                  style="width:100%; height: 450px;background-color: darkred;"
-                                                  src="models/detektoriaus_stendas3d.glb"
-                                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                                  poster="posters/detektoriaus_stendas.png" camera-controls
-                                                  camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
-                                    </model-viewer>
-                                    <p></p>
-
-                                </div>
+                                <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
+                                              style="width:100%; height: 450px;background-color: darkred;"
+                                              src="models/detektoriaus_stendas3d.glb"
+                                              exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                              poster="posters/detektoriaus_stendas.png" camera-controls
+                                              camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
+                                </model-viewer>
+                                <p></p>
 
                             </div>
 
+                        </div>
 
-                        </div>
-                        <audio id="audio4" src="audio/detektoriaus_maketas.wav"></audio>
+
                     </div>
+                    <audio id="audio4" src="audio_en/detektoriaus_maketas.wav"></audio>
                 </div>
-                <div class="w3-col m4 w3-margin-bottom">
-                    <div class="w3-light-grey">
-                        <header class="w3-container w3-blue">Elektroninis egzaminatorius VAEM 1975 m.</header>
-                        <model-viewer id="lazy-load"
-                                      src="models/egzaminatorius.glb"
-                                      exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                      poster="posters/egzaminatorius.png" camera-controls
-                                      camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
-                        >
-                        </model-viewer>
-                        <div class="w3-container"
-                             style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
-                            <button onclick="document.getElementById('id5').style.display='block'"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
-                            </button>
-                            <button onclick="play('audio5', 'audio/elektroninis_egzaminatorius.wav')"
-                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                            </button>
-                            <p></p>
-                        </div>
-                        <div id="id5" class="w3-modal">
-                            <div class="w3-modal-content w3-card-4">
-                                <header class="w3-container w3-white">
+            </div>
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-light-grey">
+                    <header class="w3-container w3-blue">Electronic examiner VAEM 1975</header>
+                    <model-viewer id="lazy-load"
+                                  src="models/egzaminatorius.glb"
+                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                  poster="posters/egzaminatorius.png" camera-controls
+                                  camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
+                    >
+                    </model-viewer>
+                    <div class="w3-container"
+                         style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
+                        <button onclick="document.getElementById('id5').style.display='block'"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
+                        </button>
+                        <button onclick="play('audio5', 'audio_en/elektroninis_egzaminatorius.wav')"
+                                class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                        </button>
+                        <p></p>
+                    </div>
+                    <div id="id5" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-white">
         <span onclick="document.getElementById('id5').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
-                                    <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                        <strong>Elektroninis egzaminatorius VAEM 1975 m.</strong> Elektroninis egzaminatorius skirtas suaktyvinti auditoriai žinių tikrinimo metu. Prietaisas veikia logikos pagrindu su atmintimi. Sukonstruotas ET studentų taikant elektronines lempas su puslaidininkiais elementais. Naudotas elektronikos laboratorijoje 1975-1977 m.
-                                    </p>
-                                    <button style="margin-left: 20px"
-                                            onclick="play('audio5', 'audio/elektroninis_egzaminatorius.wav')"
-                                            class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
-                                    </button>
+                                <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
+                                    <strong>Electronic examiner VAEM 1975</strong> The electronic examiner is designed to activate auditors during knowledge verification. The device operates on a logic basis with memory. Designed by ET students using electronic lamps with semiconductor elements. Used in electronics laboratory 1975-1977
+                                </p>
+                                <button style="margin-left: 20px"
+                                        onclick="play('audio5', 'audio_en/elektroninis_egzaminatorius.wav')"
+                                        class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                                </button>
 
-                                </header>
-                                <br/>
-                                <div class="w3-container">
+                            </header>
+                            <br/>
+                            <div class="w3-container">
 
 
-                                    <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
-                                                  style="width:100%; height: 450px;background-color: darkred;"
-                                                  src="models/egzaminatorius.glb"
-                                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
-                                                  poster="posters/egzaminatorius.png" camera-controls
-                                                  camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
-                                    </model-viewer>
-                                    <p></p>
-
-                                </div>
+                                <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
+                                              style="width:100%; height: 450px;background-color: darkred;"
+                                              src="models/egzaminatorius.glb"
+                                              exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                              poster="posters/egzaminatorius.png" camera-controls
+                                              camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
+                                </model-viewer>
+                                <p></p>
 
                             </div>
 
-
                         </div>
-                        <audio id="audio5" src="audio/elektroninis_egzaminatorius.wav"></audio>
-                    </div>
-                </div></div></div>
 
+
+                    </div>
+                    <audio id="audio5" src="audio_en/elektroninis_egzaminatorius.wav"></audio>
+                </div>
+            </div></div></div>
 
 
 
@@ -1033,7 +1026,7 @@
         <div class="content"><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Skaičiuotuvas Elektronika BK 36 TSRS 1988 m.</header>
+                    <header class="w3-container w3-blue">Calculator Electronics BK 36 USSR 1988</header>
                     <model-viewer id="lazy-load"
                                   src="models/elektronika_bk_36_skaiciuotuvas.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1046,7 +1039,7 @@
                         <button onclick="document.getElementById('id6').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio6', 'audio/skaiciuotuvas_bk.wav')"
+                        <button onclick="play('audio6', 'audio_en/skaiciuotuvas_bk.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1057,10 +1050,10 @@
         <span onclick="document.getElementById('id6').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Skaičiuotuvas Elektronika BK 36 TSRS 1988 m.</strong> Elektroninio buitinio skaičiuotuvo pagrindas vienas didelės integracijos mikrograndynas K145IP15. Rezultatas atvaizduojamas 8 skilčių 7 segmentų indikatoriuje.
+                                    <strong>Calculator Electronics BK 36 USSR 1988</strong> Electronic household calculator base one high-integration microchain K145IP15. The result is represented in the 8-segment indicator of 7 segments.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio6', 'audio/skaiciuotuvas_bk.wav')"
+                                        onclick="play('audio6', 'audio_en/skaiciuotuvas_bk.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1084,12 +1077,12 @@
 
 
                     </div>
-                    <audio id="audio6" src="audio/skaiciuotuvas_bk.wav"></audio>
+                    <audio id="audio6" src="audio_en/skaiciuotuvas_bk.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Elektroninis vamzdis 13LOZI TSRS 1964 m.</header>
+                    <header class="w3-container w3-blue">Electronic tube 13LOZI USSR 1964</header>
                     <model-viewer id="lazy-load"
                                   src="models/elektroninis_vamzdis_lozi13.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1102,7 +1095,7 @@
                         <button onclick="document.getElementById('id7').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio7', 'audio/13_lozi.wav')"
+                        <button onclick="play('audio7', 'audio_en/13_lozi.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1113,10 +1106,10 @@
         <span onclick="document.getElementById('id7').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Elektroninis vamzdis 13LOZI TSRS 1964 m.</strong> Elektroninis vamzdis - kineskopo prototipas su vienu elektronų spinduliu, naudojamas analoginiuose oscilografuose. Mokomoji priemonė.
+                                    <strong>Electronic tube 13LOZI USSR 1964</strong> Electronic tube - a prototype of a kinescopic with a single electron beam, used in analog oscillographs. Educational tool.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio7', 'audio/13_lozi.wav')"
+                                        onclick="play('audio7', 'audio_en/13_lozi.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1140,12 +1133,12 @@
 
 
                     </div>
-                    <audio id="audio7" src="audio/13_lozi.wav"></audio>
+                    <audio id="audio7" src="audio_en/13_lozi.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Mokomasis stendas Elektronika 580 TSRS 1989 m.</header>
+                    <header class="w3-container w3-blue">Educational stand Electronics 580 USSR 1989</header>
                     <model-viewer id="lazy-load"
                                   src="models/eletronika580.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1158,7 +1151,7 @@
                         <button onclick="document.getElementById('id8').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio8', 'audio/elekronika580_stendas.wav')"
+                        <button onclick="play('audio8', 'audio_en/elekronika580_stendas.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1169,10 +1162,10 @@
         <span onclick="document.getElementById('id8').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Mokomasis stendas Elektronika 580 TSRS 1989 m.</strong> Mokomasis mikroprocesorinis programų derinimo stendas Elektronika 580 skirtas nagrinėti mikroprocesorių veikimą ir mokytis programuoti Assembler kalba. Irenginio pagrindas Intel 8080 mikroprocesoriaus kopija (KPS808M80A). Naudotas mikroprocesorių laboratorijoje 1990-2000 m.
+                                    <strong>Educational stand Electronics 580 USSR 1989</strong> The microprocessor program tuning stand Electronics 580 is designed to examine the operation of microprocessors and learn how to program assembler language. The device is based on an Intel 8080 microprocessor copy (KPS808M80A). Used in the microprocessor laboratory 1990-2000
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio8', 'audio/elekronika580_stendas.wav')"
+                                        onclick="play('audio8', 'audio_en/elekronika580_stendas.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1196,12 +1189,12 @@
 
 
                     </div>
-                    <audio id="audio8" src="audio/elekronika580_stendas.wav"></audio>
+                    <audio id="audio8" src="audio_en/elekronika580_stendas.wav"></audio>
                 </div>
             </div></div><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Feritinė atminties matrica TSRS 1960 m.</header>
+                    <header class="w3-container w3-blue">Ferrite memory matrix in the USSR in 1960</header>
                     <model-viewer id="lazy-load"
                                   src="models/feritine_matrica.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1214,7 +1207,7 @@
                         <button onclick="document.getElementById('id9').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio9', 'audio/feritine_matrica.wav')"
+                        <button onclick="play('audio9', 'audio_en/feritine_matrica.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1225,10 +1218,10 @@
         <span onclick="document.getElementById('id9').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Feritinė atminties matrica TSRS 1960 m.</strong> Feritinė matrica, kurioje kiekvienas feritinis žiedelis galėdavo atsiminti 1 bitą. Matricos talpa apie 1024 bitus. Patento savininkas IBM, tačiau ji buvo gaminama visame pasaulyje, dažniausiai aptinkama Japonijoje iki 1975 m. Naudota kaip vaizdinė priemonė aiškinant atminties veikimo principą.
+                                    <strong>Ferrite memory matrix in the USSR in 1960</strong> A ferrism matrix in which each ferris ring could remember 1 bit. The matrix has a capacity of about 1024 bits. The patent holder IBM, however, was produced worldwide, most commonly found in Japan until 1975.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio9', 'audio/feritine_matrica.wav')"
+                                        onclick="play('audio9', 'audio_en/feritine_matrica.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1252,12 +1245,12 @@
 
 
                     </div>
-                    <audio id="audio9" src="audio/feritine_matrica.wav"></audio>
+                    <audio id="audio9" src="audio_en/feritine_matrica.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Televizinių signalų generatorius GIS 01T TSRS 1984 m.</header>
+                    <header class="w3-container w3-blue">Televised signal generator GIS 01T USSR 1984</header>
                     <model-viewer id="lazy-load"
                                   src="models/generatoriusg15.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1270,7 +1263,7 @@
                         <button onclick="document.getElementById('id10').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio10', 'audio/GS_15.wav')"
+                        <button onclick="play('audio10', 'audio_en/GS_15.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1281,10 +1274,10 @@
         <span onclick="document.getElementById('id10').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Televizinių signalų generatorius GIS 01T TSRS 1984 m.</strong> Generatorius skirtas standartiniam juodai baltam signalui formuoti. Taikytas derinant kineskopinių televizorių geometriją. Naudotas RTV laboratorijoje.
+                                    <strong>Televised signal generator GIS 01T USSR 1984</strong> The generator is designed to form a standard black-and-white signal. Applied to the geometry of kinescopic TVs. Used in RTV laboratory.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio10', 'audio/GS_15.wav')"
+                                        onclick="play('audio10', 'audio_en/GS_15.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1308,12 +1301,12 @@
 
 
                     </div>
-                    <audio id="audio10" src="audio/GS_15.wav"></audio>
+                    <audio id="audio10" src="audio_en/GS_15.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Skaitmeninių grandynų stendas VAEM 1994 m.</header>
+                    <header class="w3-container w3-blue">Digital Circuit Stand VAEM 1994</header>
                     <model-viewer id="lazy-load"
                                   src="models/grandynas_stendas_1994.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1326,7 +1319,7 @@
                         <button onclick="document.getElementById('id11').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio11', 'audio/skaitmeniniu_grandynu_stendas.wav')"
+                        <button onclick="play('audio11', 'audio_en/skaitmeniniu_grandynu_stendas.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1337,10 +1330,10 @@
         <span onclick="document.getElementById('id11').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Skaitmeninių grandynų stendas VAEM 1994 m.</strong> VAEM pagamintas skaitmeninių grandynų tyrimo stendas skirtas atlikti skaitmeninių grandinių kurso laboratoriniams darbams. Maketas buvo demonstruotas Infobalt 1994 m. parodoje ir sulaukė didelio susidomėjimo. Naudotas skaitmeninių grandinių laboratorijoje.
+                                    <strong>Digital Circuit Stand VAEM 1994</strong> Vaem's digital circuit research stand is designed to perform laboratory work on the course of digital circuits. The layout was shown at Infobalt in 1994 and attracted great interest. Used in the digital circuit laboratory.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio11', 'audio/skaitmeniniu_grandynu_stendas.wav')"
+                                        onclick="play('audio11', 'audio_en/skaitmeniniu_grandynu_stendas.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1364,9 +1357,10 @@
 
 
                     </div>
-                    <audio id="audio11" src="audio/skaitmeniniu_grandynu_stendas.wav"></audio>
+                    <audio id="audio11" src="audio_en/skaitmeniniu_grandynu_stendas.wav"></audio>
                 </div>
             </div></div></div>
+
 
 
 
@@ -1375,7 +1369,7 @@
         <div class="content"><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">IBM 1311, 14 colių diskų paketas JAV 1968 m.</header>
+                    <header class="w3-container w3-blue">IBM 1311, 14-inch disk pack in the U.S. 1968</header>
                     <model-viewer id="lazy-load"
                                   src="models/ibm_diskai1311.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1388,7 +1382,7 @@
                         <button onclick="document.getElementById('id12').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio12', 'audio/IBM_1311.wav')"
+                        <button onclick="play('audio12', 'audio_en/IBM_1311.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1399,10 +1393,10 @@
         <span onclick="document.getElementById('id12').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>IBM 1311, 14 colių diskų paketas JAV 1968 m.</strong> Šešių 14 colių magnetinių diskų paketas laikomas šiuolaikinių kietųjų diskų HDD prototipu. Diskai buvo įdedami į skaitytuvą, o informacija užrašoma ir skaitoma magnetinių galvučių sistema. Tai buvo pigiausias informacijos saugojimo būdas. Diskų masyvo talpa siekė 2.69 MB.
+                                    <strong>IBM 1311, 14-inch disk pack in the U.S. 1968</strong> The six-14-inch magnetic disk pack is considered a prototype of the HDD of modern hard drives. The discs were placed in the scanner, and the information is recorded and read by a magnetic head system. This was the cheapest way to store information. The disk array had a capacity of 2.69 MB.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio12', 'audio/IBM_1311.wav')"
+                                        onclick="play('audio12', 'audio_en/IBM_1311.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1426,12 +1420,12 @@
 
 
                     </div>
-                    <audio id="audio12" src="audio/IBM_1311.wav"></audio>
+                    <audio id="audio12" src="audio_en/IBM_1311.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Kompiuterio terminalas IBM 5291 Italija 1985 m.</header>
+                    <header class="w3-container w3-blue">COMPUTER TERMINAL IBM 5291 Italy 1985</header>
                     <model-viewer id="lazy-load"
                                   src="models/ibm_kompiuteris_terminalas.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1444,7 +1438,7 @@
                         <button onclick="document.getElementById('id13').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio13', 'audio/kompiuterio_terminalas_ibm.wav')"
+                        <button onclick="play('audio13', 'audio_en/kompiuterio_terminalas_ibm.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1455,10 +1449,10 @@
         <span onclick="document.getElementById('id13').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Kompiuterio terminalas IBM 5291 Italija 1985 m.</strong> Terminalo ekranas yra 12 colių ir yra skirtas prisijungti prie 34/36/38 MEMOREX sistemos su IBM 5251-12 arba IBM 5291 valdikliais.
+                                    <strong>COMPUTER TERMINAL IBM 5291 Italy 1985</strong> The terminal display is 12 inches and is designed to connect to the 34/36/38 MEMOREX system with IBM 5251-12 or IBM 5291 controllers.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio13', 'audio/kompiuterio_terminalas_ibm.wav')"
+                                        onclick="play('audio13', 'audio_en/kompiuterio_terminalas_ibm.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1482,12 +1476,12 @@
 
 
                     </div>
-                    <audio id="audio13" src="audio/kompiuterio_terminalas_ibm.wav"></audio>
+                    <audio id="audio13" src="audio_en/kompiuterio_terminalas_ibm.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Radijo imtuvas Imula RP-8310 TSRS 1986 m.</header>
+                    <header class="w3-container w3-blue">Radio receiver Imula RP-8310 USSR 1986</header>
                     <model-viewer id="lazy-load"
                                   src="models/imula2_radija.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1500,7 +1494,7 @@
                         <button onclick="document.getElementById('id14').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio14', 'audio/imula.wav')"
+                        <button onclick="play('audio14', 'audio_en/imula.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1511,10 +1505,10 @@
         <span onclick="document.getElementById('id14').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Radijo imtuvas Imula RP-8310 TSRS 1986 m.</strong> Nešiojamasis tranzistorinis radijo imtuvas su varine magnetine antena dirbantis ilgųjų ir vidutinių bangų diapozonuose.
+                                    <strong>Radio receiver Imula RP-8310 USSR 1986</strong> Portable transistor radio with copper magnetic antenna works in long and medium wave diapozones.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio14', 'audio/imula.wav')"
+                                        onclick="play('audio14', 'audio_en/imula.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1538,12 +1532,12 @@
 
 
                     </div>
-                    <audio id="audio14" src="audio/imula.wav"></audio>
+                    <audio id="audio14" src="audio_en/imula.wav"></audio>
                 </div>
             </div></div><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">KD grotuvo CROWN CD70 maketas VAEM (Vilniaus aukštesnioji elektronikos mokykla) 1999 m.</header>
+                    <header class="w3-container w3-blue">KD player CROWN CD70 layout VAEM 1999</header>
                     <model-viewer id="lazy-load"
                                   src="models/kd_crown_maketa.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1556,7 +1550,7 @@
                         <button onclick="document.getElementById('id15').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio15', 'audio/cd_crown.wav')"
+                        <button onclick="play('audio15', 'audio_en/cd_crown.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1567,10 +1561,10 @@
         <span onclick="document.getElementById('id15').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>KD grotuvo CROWN CD70 maketas VAEM (Vilniaus aukštesnioji elektronikos mokykla) 1999 m.</strong> CD grotuvas skirtas skaitmeniniams įrašams atkurti iš kompaktinių plokštelių. CD CROWN CD70 (Japonija 1988 m.) maketas pritaikytas tirti elektrinius signalus ir analizuoti veikimą laboratoriniams darbų metu. Atliktas Diplomanto, naudotas RTV laboratorijoje.
+                                    <strong>KD player CROWN CD70 layout VAEM 1999</strong> The CD player is designed to play digital recordings from CDs. The CD CROWN CD70 (Japan 1988) layout is designed to investigate electrical signals and analyze performance during laboratory work. Performed by a graduate used in an RTV laboratory.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio15', 'audio/cd_crown.wav')"
+                                        onclick="play('audio15', 'audio_en/cd_crown.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1594,12 +1588,12 @@
 
 
                     </div>
-                    <audio id="audio15" src="audio/cd_crown.wav"></audio>
+                    <audio id="audio15" src="audio_en/cd_crown.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Radijo imtuvas KOMSOMOLEC TSRS 1947 m.</header>
+                    <header class="w3-container w3-blue">Radio receiver KOMSOMOLEC USSR 1947</header>
                     <model-viewer id="lazy-load"
                                   src="models/komsolec_zalia_radija.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1612,7 +1606,7 @@
                         <button onclick="document.getElementById('id16').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio16', 'audio/kosmolec.wav')"
+                        <button onclick="play('audio16', 'audio_en/kosmolec.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1623,10 +1617,10 @@
         <span onclick="document.getElementById('id16').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Radijo imtuvas KOMSOMOLEC TSRS 1947 m.</strong> Detektorinis radijo imtuvas - pati paprasčiausia imtuvo konstrukcija, gyvavusi iki lempinių imtuvų eros, dirbanti be maitinimo šaltinio. Naudotas kaip mokomoji priemonė.
+                                    <strong>Radio receiver KOMSOMOLEC USSR 1947</strong> The detector radio is the simplest construction of the receiver, which existed until the era of light bulbs, working without a power source. Used as an educational tool.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio16', 'audio/kosmolec.wav')"
+                                        onclick="play('audio16', 'audio_en/kosmolec.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1650,12 +1644,12 @@
 
 
                     </div>
-                    <audio id="audio16" src="audio/kosmolec.wav"></audio>
+                    <audio id="audio16" src="audio_en/kosmolec.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Laboratorinis komutatorius TSRS 1960 m.</header>
+                    <header class="w3-container w3-blue">Laboratory switchboard ussr 1960</header>
                     <model-viewer id="lazy-load"
                                   src="models/komutatorius.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1668,7 +1662,7 @@
                         <button onclick="document.getElementById('id17').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio17', 'audio/kamutatorius.wav')"
+                        <button onclick="play('audio17', 'audio_en/kamutatorius.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1679,10 +1673,10 @@
         <span onclick="document.getElementById('id17').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Laboratorinis komutatorius TSRS 1960 m.</strong> Laboratorinis komutatorius skirtas naudoti kaip perjungimo elementas sudarant elektrines grandines. Naudotas elektrotechnikos laboratorijoje.
+                                    <strong>Laboratory switchboard ussr 1960</strong> The laboratory switch is intended to be used as a switching element for the formation of electrical circuits. Used in an electrical laboratory.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio17', 'audio/kamutatorius.wav')"
+                                        onclick="play('audio17', 'audio_en/kamutatorius.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1706,19 +1700,18 @@
 
 
                     </div>
-                    <audio id="audio17" src="audio/kamutatorius.wav"></audio>
+                    <audio id="audio17" src="audio_en/kamutatorius.wav"></audio>
                 </div>
             </div></div></div>
 
 
 
 
-
-
         <div class="content"><div class="w3-row-padding">
+
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Laboratorinis kondensatorius TSRS 1956 m.</header>
+                    <header class="w3-container w3-blue">Laboratory capacitor in the USSR 1956</header>
                     <model-viewer id="lazy-load"
                                   src="models/kondensatorius.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1731,7 +1724,7 @@
                         <button onclick="document.getElementById('id18').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio18', 'audio/kondensatorius.wav')"
+                        <button onclick="play('audio18', 'audio_en/kondensatorius.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1742,10 +1735,10 @@
         <span onclick="document.getElementById('id18').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Laboratorinis kondensatorius TSRS 1956 m.</strong> Laboratorinis kondensatorius skirtas naudoti kaip talpos elementas elektrinėse grandinėse. Kondensatoriaus talpa 1 mikrofaradas, maksimali įtampa 250 voltų. Naudotas elektrotechnikos laboratorijose.
+                                    <strong>Laboratory capacitor in the USSR 1956</strong> The laboratory capacitor is intended for use as a capacity element in electrical circuits. Capacitor capacity 1 microphar, maximum voltage 250 volts. Used in electrical laboratories.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio18', 'audio/kondensatorius.wav')"
+                                        onclick="play('audio18', 'audio_en/kondensatorius.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1769,12 +1762,12 @@
 
 
                     </div>
-                    <audio id="audio18" src="audio/kondensatorius.wav"></audio>
+                    <audio id="audio18" src="audio_en/kondensatorius.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Dviejų diapazonų ampermetras TSRS 1967 m.</header>
+                    <header class="w3-container w3-blue">Two-range ampermeter in the USSR 1967</header>
                     <model-viewer id="lazy-load"
                                   src="models/ampermetras.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1787,7 +1780,7 @@
                         <button onclick="document.getElementById('id19').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio19', 'audio/ampermetras.wav')"
+                        <button onclick="play('audio19', 'audio_en/ampermetras.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1798,10 +1791,10 @@
         <span onclick="document.getElementById('id19').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Dviejų diapazonų ampermetras TSRS 1967 m.</strong> Padidinto tikslumo dviejų diapozonų rodiklinis fiksuotos ritės - judančio magneto ampermetras skirtas matuoti nuolatinę ir kintamą srovę. Matavimo skalės: 0-2.5 ampero ir 0-5 voltai. Kintamos srovės dažnis 45 - 1500Hz. Matavimo paklaidos visuose diapazonuose 0.5%.
+                                    <strong>Two-range ampermeter in the USSR 1967</strong> The ampermeter of the fixed coil- a moving magnet - is designed to measure continuous and variable current with elevated precision two-dipozone. Measuring scales: 0-2.5 ampero and 0-5 volts. AC frequency 45 - 1500Hz. Measurement errors in all ranges 0.5%.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio19', 'audio/ampermetras.wav')"
+                                        onclick="play('audio19', 'audio_en/ampermetras.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1825,12 +1818,12 @@
 
 
                     </div>
-                    <audio id="audio19" src="audio/ampermetras.wav"></audio>
+                    <audio id="audio19" src="audio_en/ampermetras.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Laboratorinis varžynas TSRS 1956 m.</header>
+                    <header class="w3-container w3-blue">Laboratory competition in the USSR 1956</header>
                     <model-viewer id="lazy-load"
                                   src="models/laboratorinis_varzynas_mazas.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1843,7 +1836,7 @@
                         <button onclick="document.getElementById('id20').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio20', 'audio/varzynas_not_sure1956.wav')"
+                        <button onclick="play('audio20', 'audio_en/varzynas_not_sure1956.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1854,10 +1847,10 @@
         <span onclick="document.getElementById('id20').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Laboratorinis varžynas TSRS 1956 m.</strong> Laboratorinis varžynas (varžų rinkinys)  skirtas sukurti reikiamos varžos elementus sudarant įvairias elektrines grandines. Naudotas elektrotechnikos laboratorijoje.
+                                    <strong>Laboratory competition in the USSR 1956</strong> The laboratory competition (resistance set) is designed to create elements of the required resistance by forming various electrical circuits. Used in an electrical laboratory.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio20', 'audio/varzynas_not_sure1956.wav')"
+                                        onclick="play('audio20', 'audio_en/varzynas_not_sure1956.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1881,12 +1874,12 @@
 
 
                     </div>
-                    <audio id="audio20" src="audio/varzynas_not_sure1956.wav"></audio>
+                    <audio id="audio20" src="audio_en/varzynas_not_sure1956.wav"></audio>
                 </div>
             </div></div><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Juostinis magnetofonas ELFA 201-3 S Lietuva 1986 m.</header>
+                    <header class="w3-container w3-blue">Tape recorder ELFA 201-3 S Lithuania 1986</header>
                     <model-viewer id="lazy-load"
                                   src="models/magnetola_ELFA_LT.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1899,7 +1892,7 @@
                         <button onclick="document.getElementById('id21').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio21', 'audio/juostinis_stereo_elfa.wav')"
+                        <button onclick="play('audio21', 'audio_en/juostinis_stereo_elfa.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1910,10 +1903,10 @@
         <span onclick="document.getElementById('id21').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Juostinis magnetofonas ELFA 201-3 S Lietuva 1986 m.</strong> Juostinis stereo (4 takelių) dviejų greičių (19.5 m/s ir 9.5 m/s) magnetofonas su stiprintuvu. Garsinio signalo įrašomų ir atkuriamų dažnių diapozonas 31.5 - 20000 Hz (19.5 m/s). Stiprinimo išėjimo galia 2 x 10 W. Naudotas RTV laboratorijoje.
+                                    <strong>Tape recorder ELFA 201-3 S Lithuania 1986</strong> Stereo band (4 tracks) two-speed (19.5 m/s and 9.5 m/s) interscore with amplifier. Radiopozone of audible recording and reproducible frequencies 31.5 to 20000 Hz (19.5 m/s). Amplification output power 2 x 10 W. Used in RTV laboratory.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio21', 'audio/juostinis_stereo_elfa.wav')"
+                                        onclick="play('audio21', 'audio_en/juostinis_stereo_elfa.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1937,12 +1930,12 @@
 
 
                     </div>
-                    <audio id="audio21" src="audio/juostinis_stereo_elfa.wav"></audio>
+                    <audio id="audio21" src="audio_en/juostinis_stereo_elfa.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Mobilusis telefonas Motorola V.box (v100) Didžioji britanija 2000 m.</header>
+                    <header class="w3-container w3-blue">Mobile phone Motorola V.box (v100) United Kingdom 2000</header>
                     <model-viewer id="lazy-load"
                                   src="models/mobilus_vbox_motorola.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -1955,7 +1948,7 @@
                         <button onclick="document.getElementById('id22').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio22', 'audio/motorola_box.wav')"
+                        <button onclick="play('audio22', 'audio_en/motorola_box.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -1966,10 +1959,10 @@
         <span onclick="document.getElementById('id22').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Mobilusis telefonas Motorola V.box (v100) Didžioji britanija 2000 m.</strong> Judriojo ryšio GSM antros kartos (2G) telefonas turintis QWERTY tipo klaviatūra.
+                                    <strong>Mobile phone Motorola V.box (v100) United Kingdom 2000</strong> Mobile GSM second generation (2G) phone with QWERTY type keyboard.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio22', 'audio/motorola_box.wav')"
+                                        onclick="play('audio22', 'audio_en/motorola_box.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -1993,12 +1986,12 @@
 
 
                     </div>
-                    <audio id="audio22" src="audio/motorola_box.wav"></audio>
+                    <audio id="audio22" src="audio_en/motorola_box.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Nešiojamas AK Acer AnyWare 1100LX Taivanas 1991m.</header>
+                    <header class="w3-container w3-blue">Portable AK Acer AnyWare 1100LX Taiwan 1991.</header>
                     <model-viewer id="lazy-load"
                                   src="models/acer_anywhere_laptop.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2011,7 +2004,7 @@
                         <button onclick="document.getElementById('id23').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio23', 'audio/laptopas_acer_ak.wav')"
+                        <button onclick="play('audio23', 'audio_en/laptopas_acer_ak.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2022,10 +2015,10 @@
         <span onclick="document.getElementById('id23').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Nešiojamas AK Acer AnyWare 1100LX Taivanas 1991m.</strong> IBM suderinamas nešiojamas kompiuteris. CPU (procesorius) - Intel 80386SX16 16 Mhz, Operatyvioji atmintis 5MB, Kietasis diskas HDD - 120 MB, lanksčiųjų diskelių įrenginys - 3.5, ekranas - monochrominis skiriamoji geba 640x480, operacinė sistema DOS, Windows 3.1. Svoris 6 kg, kaina - 4500$.
+                                    <strong>Portable AK Acer AnyWare 1100LX Taiwan 1991.</strong> IBM-compatible laptop. CPU (processor) - Intel 80386SX16 16 Mhz, Flash Drive 5MB, Hard Disk HDD - 120 MB, Flexible Floppy Drive - 3.5, Display - Monochrome resolution 640x480, operating system DOS, Windows 3.1. Weight 6 kg, price - 4500$.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio23', 'audio/laptopas_acer_ak.wav')"
+                                        onclick="play('audio23', 'audio_en/laptopas_acer_ak.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2049,7 +2042,7 @@
 
 
                     </div>
-                    <audio id="audio23" src="audio/laptopas_acer_ak.wav"></audio>
+                    <audio id="audio23" src="audio_en/laptopas_acer_ak.wav"></audio>
                 </div>
             </div></div></div>
 
@@ -2059,7 +2052,7 @@
         <div class="content"><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Perfokorta Lietuva 1960 m.</header>
+                    <header class="w3-container w3-blue">Perfocard Lithuania 1960</header>
                     <model-viewer id="lazy-load"
                                   src="models/perfokorta.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2072,7 +2065,7 @@
                         <button onclick="document.getElementById('id24').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio24', 'audio/perfokorta.wav')"
+                        <button onclick="play('audio24', 'audio_en/perfokorta.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2083,10 +2076,10 @@
         <span onclick="document.getElementById('id24').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Perfokorta Lietuva 1960 m.</strong> Perfokorta - duomenų laikmena, kurią naudoja automatizuotos sistemos. Tai stačiakampio formos kortelė, pagaminta iš plono kartono. Informacija joje užrašoma išmušant skylutes. Patento savininkas IBM. Laikmeną plačiai naudojo programuotojai iki 1980 m.
+                                    <strong>Perfocard Lithuania 1960</strong> Perfocard - a data medium used by automated systems. It is a rectangular card made of thin cardboard. The information in it is recorded by knocking out the holes. Patent holder IBM. The media was widely used by programmers until the 1980s.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio24', 'audio/perfokorta.wav')"
+                                        onclick="play('audio24', 'audio_en/perfokorta.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2110,12 +2103,12 @@
 
 
                     </div>
-                    <audio id="audio24" src="audio/perfokorta.wav"></audio>
+                    <audio id="audio24" src="audio_en/perfokorta.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Power Macintosh 6100/66 Apple Inc. Italija 1996 m.</header>
+                    <header class="w3-container w3-blue">Power Macintosh 6100/66 Apple Inc. Italy 1996</header>
                     <model-viewer id="lazy-load"
                                   src="models/power_macintosh.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2128,7 +2121,7 @@
                         <button onclick="document.getElementById('id25').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio25', 'audio/powerMacintosh.wav')"
+                        <button onclick="play('audio25', 'audio_en/powerMacintosh.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2139,10 +2132,10 @@
         <span onclick="document.getElementById('id25').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Power Macintosh 6100/66 Apple Inc. Italija 1996 m.</strong> Pirmasis PowerPC tipo Apple kompiuteris turintis dvi lygiagrečias aparatines sistemas. CPU1 procesorius - PowerPC 601. 66 Mhz, Operatyvioji atmintis RAM - 32MB, CPU2 procesorius- Intel486DX. 66 Mhz, Operatyvioji atmintis RAM - 16MB, HDD (kietasis diskas) - 320MB, Optinis įrenginys CD ROM. Operacinė sistema - System 7, Mac OS 9, Windows 3.11.
+                                    <strong>Power Macintosh 6100/66 Apple Inc. Italy 1996</strong> The first PowerPC type of Apple computer with two parallel hardware systems. CPU1 processor - PowerPC 601. 66 Mhz, Flash memory RAM - 32MB, CPU2 processor- Intel486DX. 66 Mhz, Flash Drive RAM - 16MB, HDD (hard drive) - 320MB, Optical drive CD ROM. Operating system - System 7, Mac OS 9, Windows 3.11
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio25', 'audio/powerMacintosh.wav')"
+                                        onclick="play('audio25', 'audio_en/powerMacintosh.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2166,7 +2159,7 @@
 
 
                     </div>
-                    <audio id="audio25" src="audio/powerMacintosh.wav"></audio>
+                    <audio id="audio25" src="audio_en/powerMacintosh.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
@@ -2184,7 +2177,7 @@
                         <button onclick="document.getElementById('id26').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio26', 'audio/apsilankykite.wav')"
+                        <button onclick="play('audio26', 'audio_en/apsilankykite.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2198,7 +2191,7 @@
                                     <strong>Radija Veras</strong> -
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio26', 'audio/apsilankykite.wav')"
+                                        onclick="play('audio26', 'audio_en/apsilankykite.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2222,12 +2215,12 @@
 
 
                     </div>
-                    <audio id="audio26" src="audio/apsilankykite.wav"></audio>
+                    <audio id="audio26" src="audio_en/apsilankykite.wav"></audio>
                 </div>
             </div></div><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Telefoninis skirstytuvas BMM 1-2 TSRS 1988 m.</header>
+                    <header class="w3-container w3-blue">Telephone distributor BMM 1-2 USSR 1988</header>
                     <model-viewer id="lazy-load"
                                   src="models/bmm.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2240,7 +2233,7 @@
                         <button onclick="document.getElementById('id27').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio27', 'audio/BMM.wav')"
+                        <button onclick="play('audio27', 'audio_en/BMM.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2251,10 +2244,10 @@
         <span onclick="document.getElementById('id27').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Telefoninis skirstytuvas BMM 1-2 TSRS 1988 m.</strong> Tarpmiestinio telefoninio - telegrafinio ryšio skirstytuvas (boksas), skirtas simetrinių telefoninių  kabelių jungimui. Naudotas praktinių mokymų metu.
+                                    <strong>Telephone distributor BMM 1-2 USSR 1988</strong> Intercity telephone -telegraphic distribution (boxing) for connection of symmetric telephone cables. Used during practical training.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio27', 'audio/BMM.wav')"
+                                        onclick="play('audio27', 'audio_en/BMM.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2278,12 +2271,12 @@
 
 
                     </div>
-                    <audio id="audio27" src="audio/BMM.wav"></audio>
+                    <audio id="audio27" src="audio_en/BMM.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Radijola VEGA 323 stereo TSRS 1974 m.</header>
+                    <header class="w3-container w3-blue">Radiola VEGA 323 stereo USSR 1974</header>
                     <model-viewer id="lazy-load"
                                   src="models/radijo_melodija_plokstelinis.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2296,7 +2289,7 @@
                         <button onclick="document.getElementById('id28').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio28', 'audio/radijola_vega.wav')"
+                        <button onclick="play('audio28', 'audio_en/radijola_vega.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2307,10 +2300,10 @@
         <span onclick="document.getElementById('id28').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Radijola VEGA 323 stereo TSRS 1974 m.</strong> Radijo imtuvas su plokštelių grotuvu skirtas radijos ilgųjų, vidutinių ir trumpųjų (mono) bangų signalui priimti ir ultratrumpųjų (stereo) signalui priimti. Garsas iš plokštelių atkuriamas stereo garsas esant 78, 45 ir 33 greičiams, Išėjimo galia 2 x 3W.
+                                    <strong>Radiola VEGA 323 stereo USSR 1974</strong> The radio receiver with the plate player is intended to receive a radio long, medium and mono wave signal and an ultra-stereo signal. The sound from the plates is reproduced stereo sound at 78, 45 and 33 speeds, output power 2 x 3W.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio28', 'audio/radijola_vega.wav')"
+                                        onclick="play('audio28', 'audio_en/radijola_vega.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2334,12 +2327,12 @@
 
 
                     </div>
-                    <audio id="audio28" src="audio/radijola_vega.wav"></audio>
+                    <audio id="audio28" src="audio_en/radijola_vega.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Aritmometras BYSTRICA - 2 TSRS 1979 m.</header>
+                    <header class="w3-container w3-blue">Arithmemeter BYSTRICA - 2 USSR 1979</header>
                     <model-viewer id="lazy-load"
                                   src="models/bystryca_2.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2352,7 +2345,7 @@
                         <button onclick="document.getElementById('id29').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio29', 'audio/aritmometras_bystrica.wav')"
+                        <button onclick="play('audio29', 'audio_en/aritmometras_bystrica.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2363,10 +2356,10 @@
         <span onclick="document.getElementById('id29').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Aritmometras BYSTRICA - 2 TSRS 1979 m.</strong> Elektromechaninis skaičiuotuvas - aritmometras plačiai naudotas buhalterių, inžinierių ir techninių specialybių studentų. Praktiškai tai danų aritmometro CONTEX-20 kopija.
+                                    <strong>Arithmemeter BYSTRICA - 2 USSR 1979</strong> Electromechanical calculator - arithmetic widely used by accountants, engineers and students of technical specialties. In practice, it is a copy of the Danish arithmetic CONTEX-20.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio29', 'audio/aritmometras_bystrica.wav')"
+                                        onclick="play('audio29', 'audio_en/aritmometras_bystrica.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2390,11 +2383,9 @@
 
 
                     </div>
-                    <audio id="audio29" src="audio/aritmometras_bystrica.wav"></audio>
+                    <audio id="audio29" src="audio_en/aritmometras_bystrica.wav"></audio>
                 </div>
             </div></div></div>
-
-
 
 
 
@@ -2403,7 +2394,7 @@
         <div class="content"><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Radijo imtuvo RP-255 maketas VAEM 1998 m.</header>
+                    <header class="w3-container w3-blue">Radio RP-255 layout VAEM 1998</header>
                     <model-viewer id="lazy-load"
                                   src="models/rp_255_radija.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2416,7 +2407,7 @@
                         <button onclick="document.getElementById('id30').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio30', 'audio/rp_255_radio_stendas.wav')"
+                        <button onclick="play('audio30', 'audio_en/rp_255_radio_stendas.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2427,10 +2418,10 @@
         <span onclick="document.getElementById('id30').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Radijo imtuvo RP-255 maketas VAEM 1998 m.</strong> Tranzistorinio radijo imtuvo maketas skirtas studentams susipažinti su imtuvo sandara ir atlikti matavimus kontroliniuose taškuose bei įvestų gedimų paiešką. Naudotas RTV laboratorijoje.
+                                    <strong>Radio RP-255 layout VAEM 1998</strong> The layout of the transistor radio receiver is designed for students to get acquainted with the structure of the receiver and to perform measurements at the checkpoints and search for the faults entered. Used in RTV laboratory.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio30', 'audio/rp_255_radio_stendas.wav')"
+                                        onclick="play('audio30', 'audio_en/rp_255_radio_stendas.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2454,12 +2445,12 @@
 
 
                     </div>
-                    <audio id="audio30" src="audio/rp_255_radio_stendas.wav"></audio>
+                    <audio id="audio30" src="audio_en/rp_255_radio_stendas.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Asmeninis kompiuteris SANTAKA Lietuva 1990 m.</header>
+                    <header class="w3-container w3-blue">Personal computer SANTAKA Lithuania 1990</header>
                     <model-viewer id="lazy-load"
                                   src="models/santaka_buitinis.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2472,7 +2463,7 @@
                         <button onclick="document.getElementById('id31').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio31', 'audio/kompiuteris_santaka.wav')"
+                        <button onclick="play('audio31', 'audio_en/kompiuteris_santaka.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2483,10 +2474,10 @@
         <span onclick="document.getElementById('id31').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Asmeninis kompiuteris SANTAKA Lietuva 1990 m.</strong> Lietuviškas buitinis kompiuterio Sinclair ZX Spectrum variantas. Kompiuterio pagrindas patobulintas Intel 8080 procesirius - Z80 arba jo TSRS kopija KP580BM80A. Kompiuteris buvo jungiamas prie televizoriaus ir turėjo didelį populiarumą tarp studentų, nes jį buvo galima pasigaminti pačiam.
+                                    <strong>Personal computer SANTAKA Lithuania 1990</strong> Lithuanian household version of the computer Sinclair ZX Spectrum. Computer base improved Intel 8080 processor - Z80 or its USSR copy KP580BM80A. The computer was connected to the TV and had great popularity among students, because it was possible to make it yourself.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio31', 'audio/kompiuteris_santaka.wav')"
+                                        onclick="play('audio31', 'audio_en/kompiuteris_santaka.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2510,12 +2501,12 @@
 
 
                     </div>
-                    <audio id="audio31" src="audio/kompiuteris_santaka.wav"></audio>
+                    <audio id="audio31" src="audio_en/kompiuteris_santaka.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Šilelis 32TC-401D Lietuva 1989m.</header>
+                    <header class="w3-container w3-blue">Šilelis 32TC-401D Lithuania 1989</header>
                     <model-viewer id="lazy-load"
                                   src="models/silelis_tc32.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2528,7 +2519,7 @@
                         <button onclick="document.getElementById('id32').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio32', 'audio/silelis32tc.wav')"
+                        <button onclick="play('audio32', 'audio_en/silelis32tc.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2539,10 +2530,10 @@
         <span onclick="document.getElementById('id32').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Šilelis 32TC-401D Lietuva 1989m.</strong> Mobilus spalvoto vaizdo televizorius skirtas dirbti metrinių ir decimetrinių bangų diapozonuose su SECAM spalvų kodavimo sistema. Naudotas kartu su kitais prietaisais tiriant televizinius signalus RTV laboratorijoje.
+                                    <strong>Šilelis 32TC-401D Lithuania 1989</strong> The mobile colour TV is designed to work in metric and decimetric wave diapozones with the SECAM color coding system. Used in combination with other devices for television testing in the RTV laboratory.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio32', 'audio/silelis32tc.wav')"
+                                        onclick="play('audio32', 'audio_en/silelis32tc.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2566,12 +2557,12 @@
 
 
                     </div>
-                    <audio id="audio32" src="audio/silelis32tc.wav"></audio>
+                    <audio id="audio32" src="audio_en/silelis32tc.wav"></audio>
                 </div>
             </div></div><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Telegrafo raktas KM-F TSRS 1983 m.</header>
+                    <header class="w3-container w3-blue">Telegraph key KM-F USSR 1983</header>
                     <model-viewer id="lazy-load"
                                   src="models/telegrafo_raktas.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2584,7 +2575,7 @@
                         <button onclick="document.getElementById('id33').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio33', 'audio/telegrafo_raktas.wav')"
+                        <button onclick="play('audio33', 'audio_en/telegrafo_raktas.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2595,10 +2586,10 @@
         <span onclick="document.getElementById('id33').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Telegrafo raktas KM-F TSRS 1983 m.</strong> Telegrafo raktas skirtas siųstuvams dirbantiems telegrafo rėžime kai pranešimai siunčiami užšifruoti Morzės kodu. Naudotas radijo mėgėjų varžybose.
+                                    <strong>Telegraph key KM-F USSR 1983</strong> The telegraph key is for transmitters working in telegraph mode when messages are sent encrypted with Morse code. Used in radio amateur competitions.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio33', 'audio/telegrafo_raktas.wav')"
+                                        onclick="play('audio33', 'audio_en/telegrafo_raktas.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2622,12 +2613,12 @@
 
 
                     </div>
-                    <audio id="audio33" src="audio/telegrafo_raktas.wav"></audio>
+                    <audio id="audio33" src="audio_en/telegrafo_raktas.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Televizinių signalų generatorius GIS 01T TSRS 1984 m.</header>
+                    <header class="w3-container w3-blue">Televised signal generator GIS 01T USSR 1984</header>
                     <model-viewer id="lazy-load"
                                   src="models/televiziniu_signalu_gis_generatorius.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2640,7 +2631,7 @@
                         <button onclick="document.getElementById('id34').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio34', 'audio/televiziniu_signalu_generatorius.wav')"
+                        <button onclick="play('audio34', 'audio_en/televiziniu_signalu_generatorius.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2651,10 +2642,10 @@
         <span onclick="document.getElementById('id34').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Televizinių signalų generatorius GIS 01T TSRS 1984 m.</strong> Generatorius skirtas standartiniam juodai baltam signalui formuoti. Taikytas derinant kineskopinių televizorių geometriją. Naudotas RTV laboratorijoje.
+                                    <strong>Televised signal generator GIS 01T USSR 1984</strong> The generator is designed to form a standard black-and-white signal. Applied to the geometry of kinescopic TVs. Used in RTV laboratory.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio34', 'audio/televiziniu_signalu_generatorius.wav')"
+                                        onclick="play('audio34', 'audio_en/televiziniu_signalu_generatorius.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2678,7 +2669,7 @@
 
 
                     </div>
-                    <audio id="audio34" src="audio/televiziniu_signalu_generatorius.wav"></audio>
+                    <audio id="audio34" src="audio_en/televiziniu_signalu_generatorius.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
@@ -2696,7 +2687,7 @@
                         <button onclick="document.getElementById('id35').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio35', 'audio/radijo_lempa_tesla.wav')"
+                        <button onclick="play('audio35', 'audio_en/radijo_lempa_tesla.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2710,7 +2701,7 @@
                                     <strong>Radijo lempa RE1000F TESLA Čekoslovakija 1983 m.</strong> Tiesioginio kaitinimo generatorinis tetrodas skirtas naudoti amplitudinės ir dažninės moduliacijos radijo siųstuvuose. Išėjimo galia iki 1000W, dažnis iki 150Mhz. Lempa aušinama akyyviu oro srautu. Naudota kaip vaizdinė priemonė.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio35', 'audio/radijo_lempa_tesla.wav')"
+                                        onclick="play('audio35', 'audio_en/radijo_lempa_tesla.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2734,11 +2725,9 @@
 
 
                     </div>
-                    <audio id="audio35" src="audio/radijo_lempa_tesla.wav"></audio>
+                    <audio id="audio35" src="audio_en/radijo_lempa_tesla.wav"></audio>
                 </div>
             </div></div></div>
-
-
 
 
 
@@ -2747,7 +2736,7 @@
         <div class="content"><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Kino projektorius Ukraina 5 TSRS  1976 m.</header>
+                    <header class="w3-container w3-blue">Film projector Ukraine 5 USSR 1976</header>
                     <model-viewer id="lazy-load"
                                   src="models/ukraina5_projektorius.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2760,7 +2749,7 @@
                         <button onclick="document.getElementById('id36').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio36', 'audio/kino_projektorius_ukraina5.wav')"
+                        <button onclick="play('audio36', 'audio_en/kino_projektorius_ukraina5.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2771,10 +2760,10 @@
         <span onclick="document.getElementById('id36').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Kino projektorius Ukraina 5 TSRS  1976 m.</strong> Kino projektorius skirtas demonstruoti 8 mm kino juostoms. Naudotas paskaitų metu demonstruojant mokomuosius filmus.
+                                    <strong>Film projector Ukraine 5 USSR 1976</strong> The film projector is designed to showcase 8 mm films. Used during lectures to show educational films.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio36', 'audio/kino_projektorius_ukraina5.wav')"
+                                        onclick="play('audio36', 'audio_en/kino_projektorius_ukraina5.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2798,12 +2787,12 @@
 
 
                     </div>
-                    <audio id="audio36" src="audio/kino_projektorius_ukraina5.wav"></audio>
+                    <audio id="audio36" src="audio_en/kino_projektorius_ukraina5.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Universalus matuoklis TL-4 TSRS 1974 m.</header>
+                    <header class="w3-container w3-blue">Universal meter TL-4 USSR 1974</header>
                     <model-viewer id="lazy-load"
                                   src="models/universalus_matuoklis.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2816,7 +2805,7 @@
                         <button onclick="document.getElementById('id37').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio37', 'audio/universalus_matuoklistl4.wav')"
+                        <button onclick="play('audio37', 'audio_en/universalus_matuoklistl4.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2827,10 +2816,10 @@
         <span onclick="document.getElementById('id37').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Universalus matuoklis TL-4 TSRS 1974 m.</strong> Pirmasis populiaraus tarybinio multimetro TL-4M modelis. Matuoklis skirtas nuolatinės ir kintamos (iki 400 Hz) srovės įtampai iki 700 voltų matuoti. Taip pat nuolatinei ir kintamai srovei iki 3 amperų nenaudojant išorinio šunto.
+                                    <strong>Universal meter TL-4 USSR 1974</strong> The first model of the popular Soviet multimeter TL-4M. The meter is designed to measure dc and AC (up to 400 Hz) current voltage up to 700 volts. Also for continuous and variable current up to 3 amps without the use of an external shunt.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio37', 'audio/universalus_matuoklistl4.wav')"
+                                        onclick="play('audio37', 'audio_en/universalus_matuoklistl4.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2854,12 +2843,12 @@
 
 
                     </div>
-                    <audio id="audio37" src="audio/universalus_matuoklistl4.wav"></audio>
+                    <audio id="audio37" src="audio_en/universalus_matuoklistl4.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Laboratorinis varžynas MSP-60 TSRS 1956 m.</header>
+                    <header class="w3-container w3-blue">Laboratory competition MSP-60 USSR 1956</header>
                     <model-viewer id="lazy-load"
                                   src="models/varzynas_didelis_mcp60.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2872,7 +2861,7 @@
                         <button onclick="document.getElementById('id38').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio38', 'audio/msp_60_varzynas.wav')"
+                        <button onclick="play('audio38', 'audio_en/msp_60_varzynas.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2883,10 +2872,10 @@
         <span onclick="document.getElementById('id38').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Laboratorinis varžynas MSP-60 TSRS 1956 m.</strong> Laboratorinis varžynas (varžų rinkinys) skirtas sukurti reikiamos varžos elementus sudarant įvairias elektrines grandines. Bendra važa nuo 0.01 omo iki 10 kilo omų.
+                                    <strong>Laboratory competition MSP-60 USSR 1956</strong> The laboratory competition (resistance set) is designed to create elements of the required resistance by forming various electrical circuits. Total ride from 0.01 omo to 10 kilo ohm
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio38', 'audio/msp_60_varzynas.wav')"
+                                        onclick="play('audio38', 'audio_en/msp_60_varzynas.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2910,12 +2899,12 @@
 
 
                     </div>
-                    <audio id="audio38" src="audio/msp_60_varzynas.wav"></audio>
+                    <audio id="audio38" src="audio_en/msp_60_varzynas.wav"></audio>
                 </div>
             </div></div><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Telefono aparatas VEF TA - 12 Latvija 1994 m.</header>
+                    <header class="w3-container w3-blue">Telephone apparatus VEF TA - 12 Latvia 1994</header>
                     <model-viewer id="lazy-load"
                                   src="models/vefta_12_telefonas.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2928,7 +2917,7 @@
                         <button onclick="document.getElementById('id39').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio39', 'audio/vefta_1994_telefonas.wav')"
+                        <button onclick="play('audio39', 'audio_en/vefta_1994_telefonas.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2939,10 +2928,10 @@
         <span onclick="document.getElementById('id39').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Telefono aparatas VEF TA - 12 Latvija 1994 m.</strong> Laidinis telefonas su mygtukiniu toniniu numerio rinkikliu, turintis 10 programuojamų 18-os skaičių numerių ir paskutinio rinkto numerio kartojimo funkcija.
+                                    <strong>Telephone apparatus VEF TA - 12 Latvia 1994</strong> Wired phone with a button ton dial, with 10 programmable 18 numbers and the repetition of the last dialed number.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio39', 'audio/vefta_1994_telefonas.wav')"
+                                        onclick="play('audio39', 'audio_en/vefta_1994_telefonas.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -2966,12 +2955,12 @@
 
 
                     </div>
-                    <audio id="audio39" src="audio/vefta_1994_telefonas.wav"></audio>
+                    <audio id="audio39" src="audio_en/vefta_1994_telefonas.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Telefono apratas VEF BAGTA - 50 Latvija 1950 m.</header>
+                    <header class="w3-container w3-blue">Telephone apparatus VEF BAGTA - 50 Latvia 1950</header>
                     <model-viewer id="lazy-load"
                                   src="models/vefta_bagta50_telefonas.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -2984,7 +2973,7 @@
                         <button onclick="document.getElementById('id40').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio40', 'audio/vefta_bagta_1950.wav')"
+                        <button onclick="play('audio40', 'audio_en/vefta_bagta_1950.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -2995,10 +2984,10 @@
         <span onclick="document.getElementById('id40').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Telefono apratas VEF BAGTA - 50 Latvija 1950 m.</strong> Laidinis telefono aparatas su diskinio numerio rinkikliu turintis abėcėlę su kirilicos raidėmis а, б, в, г, д, е, ж, и, к, л ir bakelito korpusą.
+                                    <strong>Telephone apparatus VEF BAGTA - 50 Latvia 1950</strong> Wired telephone with disc dial containing the alphabet with Cyrillic letters а, б, в, г, д, е, ж, и, к, л and bakelite housing.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio40', 'audio/vefta_bagta_1950.wav')"
+                                        onclick="play('audio40', 'audio_en/vefta_bagta_1950.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -3022,12 +3011,12 @@
 
 
                     </div>
-                    <audio id="audio40" src="audio/vefta_bagta_1950.wav"></audio>
+                    <audio id="audio40" src="audio_en/vefta_bagta_1950.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Kasetinis magnetofonas VESNA 202 TSRS 1980 m.</header>
+                    <header class="w3-container w3-blue">Cassette tape recorder VESNA 202 USSR 1980</header>
                     <model-viewer id="lazy-load"
                                   src="models/vesna_202_radija.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -3040,7 +3029,7 @@
                         <button onclick="document.getElementById('id41').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio41', 'audio/kasetinis_magnetofonas_vesna.wav')"
+                        <button onclick="play('audio41', 'audio_en/kasetinis_magnetofonas_vesna.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -3051,10 +3040,10 @@
         <span onclick="document.getElementById('id41').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Kasetinis magnetofonas VESNA 202 TSRS 1980 m.</strong> Nešiojamasis kasetinis magnetofonas „Viesna-202“ 1977 m. Pagamintas Zaporožės elektrotechnikos gamykloje „Iskra“. Antrosios klasės monofoninis kasetinis magnetofonas „Vesna-202“ turi padidintą išėjimo galią, triukšmo mažinimo sistemą. Įrašymo lygį kontroliuoja rinkimo indikatorius. Darbinių dažnių diapazonas yra 63-10000 Hz.
+                                    <strong>Cassette tape recorder VESNA 202 USSR 1980</strong> Portable cassette tape recorder "Viesna-202" in 1980 made in Zaporozhye electrotechnical factory "Iskra". The second-class mono cassette tape recorder Vesna-202 has an increased output power and noise abatement system. The recording level is controlled by the dial indicator. The operating frequency range is 63-10000 Hz.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio41', 'audio/kasetinis_magnetofonas_vesna.wav')"
+                                        onclick="play('audio41', 'audio_en/kasetinis_magnetofonas_vesna.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -3078,10 +3067,9 @@
 
 
                     </div>
-                    <audio id="audio41" src="audio/kasetinis_magnetofonas_vesna.wav"></audio>
+                    <audio id="audio41" src="audio_en/kasetinis_magnetofonas_vesna.wav"></audio>
                 </div>
             </div></div></div>
-
 
 
 
@@ -3089,7 +3077,7 @@
         <div class="content"><div class="w3-row-padding">
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Vaizdo magnetofono maketas VAEM 1998 m.</header>
+                    <header class="w3-container w3-blue">Video tape recorder layout VAEM 1998</header>
                     <model-viewer id="lazy-load"
                                   src="models/video_magnetofono_stentas_eif.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -3102,7 +3090,7 @@
                         <button onclick="document.getElementById('id42').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio42', 'audio/vaizdo_magnetofono_stendas.wav')"
+                        <button onclick="play('audio42', 'audio_en/vaizdo_magnetofono_stendas.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -3113,10 +3101,10 @@
         <span onclick="document.getElementById('id42').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Vaizdo magnetofono maketas VAEM 1998 m.</strong> Kasetinio vaizdo magnetofono AIWA HV-G900AGPS (Japonija 1989 m.) laboratorinis maketas naudotas demonstruojant vaizdo magnetofono veikimo principus ir sandarą patobulinta konstrukcija turi papildomus kontrolinius taškus. Naudota RTV laboratorijoje.
+                                    <strong>Video tape recorder layout VAEM 1998</strong> The laboratory layout of the cassertic image recorder AIWA HV-G900AGPS (Japan 1989) was used to demonstrate the principles and structure of the video recorder has additional control points. Used in RTV laboratory.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio42', 'audio/vaizdo_magnetofono_stendas.wav')"
+                                        onclick="play('audio42', 'audio_en/vaizdo_magnetofono_stendas.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -3140,12 +3128,12 @@
 
 
                     </div>
-                    <audio id="audio42" src="audio/vaizdo_magnetofono_stendas.wav"></audio>
+                    <audio id="audio42" src="audio_en/vaizdo_magnetofono_stendas.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Keturių diapozonų voltmetras TSRS 1958 m.</header>
+                    <header class="w3-container w3-blue">Four-diapzone voltmeter in the USSR in 1958</header>
                     <model-viewer id="lazy-load"
                                   src="models/voltmetras.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -3158,7 +3146,7 @@
                         <button onclick="document.getElementById('id43').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio43', 'audio/voltmetras.wav')"
+                        <button onclick="play('audio43', 'audio_en/voltmetras.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -3169,10 +3157,10 @@
         <span onclick="document.getElementById('id43').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Keturių diapozonų voltmetras TSRS 1958 m.</strong> Padidinto tikslumo keturių diapazonų rodiklinis fiksuotos ritės - judančio magneto voltmetras. Matavimo skalės: 0-78V (voltų); 0-150V; 0-300V, 0-600V. Matavimų paklaidos visuose diapozonuose 0.5%.
+                                    <strong>Four-diapzone voltmeter in the USSR in 1958</strong> For the purpose of increasing accuracy, the four-range indicator of the fixed coil is a rollermeter of a moving magnet. Measuring scales: 0-78V (volts); 0-150V; 0-300V, 0-600V. Measurement errors in all diapozones 0.5%.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio43', 'audio/voltmetras.wav')"
+                                        onclick="play('audio43', 'audio_en/voltmetras.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -3196,12 +3184,12 @@
 
 
                     </div>
-                    <audio id="audio43" src="audio/voltmetras.wav"></audio>
+                    <audio id="audio43" src="audio_en/voltmetras.wav"></audio>
                 </div>
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <header class="w3-container w3-blue">Zigzaginė antena VAEM 1992 m.</header>
+                    <header class="w3-container w3-blue">Zigzag antenna VAEM 1992</header>
                     <model-viewer id="lazy-load"
                                   src="models/zigzagine_antena.glb"
                                   exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
@@ -3214,7 +3202,7 @@
                         <button onclick="document.getElementById('id44').style.display='block'"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
                         </button>
-                        <button onclick="play('audio44', 'audio/zigzagine_antena.wav')"
+                        <button onclick="play('audio44', 'audio_en/zigzagine_antena.wav')"
                                 class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                         </button>
                         <p></p>
@@ -3225,10 +3213,10 @@
         <span onclick="document.getElementById('id44').style.display='none'"
               class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
                                 <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
-                                    <strong>Zigzaginė antena VAEM 1992 m.</strong> Išplėstinio diapozono zigzaginė antena su reflektoriumi skirta metrinių televizijos bangų priėmimui, studentai gali palyginti teorinius skaičiavimus su maketo rezultatais. Naudota signalų ir grandinių laboratorijoje.
+                                    <strong>Zigzag antenna VAEM 1992</strong> An extended diapozone zigzag antenna with a reflector for the reception of metric television waves, students can compare theoretical calculations with layout results. Used in the laboratory of signals and circuits.
                                 </p>
                                 <button style="margin-left: 20px"
-                                        onclick="play('audio44', 'audio/zigzagine_antena.wav')"
+                                        onclick="play('audio44', 'audio_en/zigzagine_antena.wav')"
                                         class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                 </button>
 
@@ -3252,7 +3240,7 @@
 
 
                     </div>
-                    <audio id="audio44" src="audio/zigzagine_antena.wav"></audio>
+                    <audio id="audio44" src="audio_en/zigzagine_antena.wav"></audio>
                 </div>
             </div></div></div>
 
@@ -3301,7 +3289,7 @@
     $("#pagin ul a").click(function (e) {
         e.preventDefault();
         showPage($(this).parent().index());
-        $("html, body").animate({scrollTop: 400}, "slow");
+        $("html, body").animate({scrollTop: 0}, "slow");
     });
 
     showPage(0)

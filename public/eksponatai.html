@@ -3301,7 +3301,7 @@
     $("#pagin ul a").click(function (e) {
         e.preventDefault();
         showPage($(this).parent().index());
-        $("html, body").animate({scrollTop: 400}, "slow");
+        $("html, body").animate({scrollTop: 0}, "slow");
     });
 
     showPage(0)
