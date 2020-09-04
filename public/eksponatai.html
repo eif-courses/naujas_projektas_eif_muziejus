@@ -385,13 +385,14 @@
         }
 
         model-viewer {
-            width: 100% ;
+            width: 100%;
             height: 300px;
             border: 1px solid #cccccc;
             background-size: auto;
         }
-        header.w3-blue{
-         padding: 10px!important;
+
+        header.w3-blue {
+            padding: 10px !important;
         }
 
         .button-load {
@@ -455,9 +456,9 @@
 
         .active a,
         #pagin a:hover {
-            background-color: #00bcd4!important;
+            background-color: #00bcd4 !important;
             border-bottom: 3px solid #00bcd4;
-            color: white!important;
+            color: white !important;
         }
 
         span {
@@ -498,8 +499,9 @@
         .w3-modal {
             padding-top: 10px !important;
         }
-        a.active{
-            background-color: #00bcd4!important;
+
+        a.active {
+            background-color: #00bcd4 !important;
         }
 
         /* Float four columns side by side */
@@ -518,9 +520,76 @@
         }
 
 
-
     </style>
 
+
+
+
+
+    <script>
+        function modeliai(){
+
+            console.log(`        <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-light-grey">
+                        <header class="w3-container w3-blue">${data[0].title}</header>
+                        <model-viewer id="lazy-load"
+                                      src="models/${data[0].model}"
+                                      exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                      poster="posters/${data[0].poster}" camera-controls
+                                      camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
+                        >
+                        </model-viewer>
+                        <div class="w3-container"
+                             style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
+                            <button onclick="document.getElementById('id${0}').style.display='block'"
+                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-expand"></i></i>
+                            </button>
+                            <button onclick="play('audio', 'audio/${data[0].audio}')"
+                                    class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                            </button>
+                            <p></p>
+                        </div>
+                        <div id="id${0}" class="w3-modal">
+                            <div class="w3-modal-content w3-card-4">
+                                <header class="w3-container w3-white">
+        <span onclick="document.getElementById('id${0}').style.display='none'"
+              class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>
+                                    <p style="padding-right: 40px; padding-left: 20px; word-break: break-word;">
+                                        <strong>${data[0].title}</strong> ${data[0].description}
+                                    </p>
+                                    <button style="margin-left: 20px"
+                                            onclick="play('audio', 'audio/${data[0].audio}')"
+                                            class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
+                                    </button>
+
+                                </header>
+                                <br/>
+                                <div class="w3-container">
+
+
+                                    <model-viewer id="lazy-load" ar ar-modes="scene-viewer"
+                                                  style="width:100%; height: 450px;background-color: darkred;"
+                                                  src="models/${data[0].model}"
+                                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
+                                                  poster="posters/${data[0].poster}" camera-controls
+                                                  camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
+                                    </model-viewer>
+                                    <p></p>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <audio id="audio" src="audio/${data[0].audio}"></audio>
+                    </div>
+                </div>`);
+
+
+        }
+        modeliai()
+    </script>
 </head>
 
 <body>
@@ -548,8 +617,8 @@
                 src="posters/egzaminatorius.png"><span
                 style="padding-left: 10px;">Apie projektą</span></a>
         <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white active"><img width="32px"
-                                                                                                    height="32px"
-                                                                                                    src="posters/aukstavoltis_diodas.png">
+                                                                                                           height="32px"
+                                                                                                           src="posters/aukstavoltis_diodas.png">
             <span style="padding-left: 10px;">Eksponatai</span></a>
         <a href="index.html#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img
                 width="32px"
@@ -562,12 +631,13 @@
                 style="padding-left: 10px;">Kontaktai</span></a>
     </div>
 
-<p></p>
+    <p></p>
     <a target="_blank" href="https://viko.lt"><img src="images/viko.jpg" width="120px"/></a>
     <a target="_blank" href="https://eif.viko.lt"><img src="images/eifo_logo.jpg" width="120px"/></a>
     <p></p>
     <a target="_blank" href="https://eif-muziejus.lt"><img src="images/logo.png" width="120px"/></a>
-    <a target="_blank" href="https://www.youtube.com/watch?v=HwGVn_dq47k"><img src="images/logo2.PNG" width="120px"/></a>
+    <a target="_blank" href="https://www.youtube.com/watch?v=HwGVn_dq47k"><img src="images/logo2.PNG"
+                                                                               width="120px"/></a>
 </nav>
 
 <!-- Top menu on small screens -->
@@ -595,121 +665,42 @@
         <hr style="width:100%;border:5px solid #2196F3!important;" class="w3-round">
 
 
-<!--        <div class="w3-panel w3-pale-yellow w3-border">-->
-<!--            <h3>SVARBU!</h3>-->
-<!--            <p>Paspauskite ant eksponato ir peržiūrėkite 3D modelį! Laikant pelės kairį klavišą galite sukioti 360-->
-<!--                laipsniu, pelės ratukas priartina. Mobilus telefonai atitinkamai sukioti gali su touchscreen.</p>-->
-<!--        </div>-->
+        <!--        <div class="w3-panel w3-pale-yellow w3-border">-->
+        <!--            <h3>SVARBU!</h3>-->
+        <!--            <p>Paspauskite ant eksponato ir peržiūrėkite 3D modelį! Laikant pelės kairį klavišą galite sukioti 360-->
+        <!--                laipsniu, pelės ratukas priartina. Mobilus telefonai atitinkamai sukioti gali su touchscreen.</p>-->
+        <!--        </div>-->
 
 
-<!--        <p>Šiuos eksponatus galite rasti Vilniaus kolegijos elektronikos ir informatikos fakultete elektronikos-->
-<!--            muziejuje. Žemiau galite rasti trumpus aprašymus bei 3D modelius peržiūrėti naršyklėje tiesiog paspaudus ant-->
-<!--            paveikslėlio ir pasukinėjant į šoną. Taip pat yra pridėti ir garso įrašai apie kiekvieną eksponatą.-->
-<!--            Norintiems pasivaikščioti po kolegiją ir muziejų galite atsisiųsti bandomąją vaizdo žaidimo versiją Windows-->
-<!--            x64 platformai <a-->
-<!--                    href="https://vikolt-my.sharepoint.com/:u:/g/personal/m_gzegozevskis_ad_viko_lt/Efej1hxgRldGn2hyY_ClsWIBioUGDdGdElKsz5-esLDpLg?e=IzHmzj"-->
-<!--                    target="_blank">čia</a>.-->
-<!--        </p>-->
+        <!--        <p>Šiuos eksponatus galite rasti Vilniaus kolegijos elektronikos ir informatikos fakultete elektronikos-->
+        <!--            muziejuje. Žemiau galite rasti trumpus aprašymus bei 3D modelius peržiūrėti naršyklėje tiesiog paspaudus ant-->
+        <!--            paveikslėlio ir pasukinėjant į šoną. Taip pat yra pridėti ir garso įrašai apie kiekvieną eksponatą.-->
+        <!--            Norintiems pasivaikščioti po kolegiją ir muziejų galite atsisiųsti bandomąją vaizdo žaidimo versiją Windows-->
+        <!--            x64 platformai <a-->
+        <!--                    href="https://vikolt-my.sharepoint.com/:u:/g/personal/m_gzegozevskis_ad_viko_lt/Efej1hxgRldGn2hyY_ClsWIBioUGDdGdElKsz5-esLDpLg?e=IzHmzj"-->
+        <!--                    target="_blank">čia</a>.-->
+        <!--        </p>-->
     </div>
 
 
     <section id="body">
 
 
+
+
+
+
+
         <script>
             function loadData() {
                 for (let i = 0; i < data.length; i++) {
 
-                    console.log(data[i].model + " " + data[i].audio + " " + data[i].poster);
-
-
-                    if (i % 4 === 0) {
-                        $('#body').append('<div class=\"content\">\n');
-                    }
-                    if (i % 2 === 0) {
-                        $('#body').append('<div class=\"w3-row-padding\">\n');
-                    }
-
-                    if (i === 0) {
-                        $('#body').append('<div class=\"content\">\n');
-                        $('#body').append('<div class=\"w3-row-padding\">\n');
-                    }
-
-
-                    $('#body').append('<div class=\"w3-col m5 w3-margin-bottom\">' +
-                        "                    <div class=\"w3-light-grey\">" + '<model-viewer id="lazy-load"\n' +
-                        '                                      src="models/' + data[i].model + '" \n' +
-                        '                                      exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"\n' +
-                        '                                      poster="posters/' + data[i].poster + '" camera-controls\n' +
-                        '                                      camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg"\n' +
-                        '                                      reveal="interaction">\n' +
-                        '                        </model-viewer>' + '   <div class="w3-container"\n' +
-                        '                             style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">\n' +
-                        '                            <button onclick="document.getElementById(\' +' + 'id' + i + '\').style.display=\'block\'"\n' +
-                        '                                    class="w3-button w3-teal"><i class="fas fa-expand"></i></i>\n' +
-                        '                            </button>\n' +
-                        '                            <button onclick="play(\'audio\', \'audio/' + data[i].audio + '\')"\n' +
-                        '                                    class="w3-button w3-teal"><i class="fas fa-volume-up"></i>\n' +
-                        '                            </button>\n' +
-                        '\n' +
-                        '                            <p style="word-break: break-word;">\n' +
-                        '                                <strong>' + data[i].title + '</strong>' + ' ' + data[i].description +
-                        '                            </p>\n' +
-                        '                        </div>' + ' <div id="id'+i+'" class="w3-modal">\n' +
-                        '                            <div class="w3-modal-content w3-card-4">\n' +
-                        '\n' +
-                        '                                <header class="w3-container w3-blue">\n' + '<span onclick=document.getElementById(id'+i+').style.display=none'+
-                        '              class="w3-button w3-display-topright w3-xlarge w3-red">&times;</span>\n' +
-                        '                                    <h2>Laboratorinis detektoriaus maketas Lietuva 1976 m.</h2>\n' +
-                        '                                </header>\n' +
-                        '                                <br/>\n' +
-                        '                                <div class="w3-container">\n' +
-                        '                                    <model-viewer id="lazy-load" ar ar-modes="scene-viewer"\n' +
-                        '                                                  style="width:100%; height: 600px;background-color: darkred;"\n' +
-                        '                                                  src="models/detektoriaus_stendas3d.glb"\n' +
-                        '                                                  exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"\n' +
-                        '                                                  poster="posters/detektoriaus_stendas.png" camera-controls\n' +
-                        '                                                  camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">\n' +
-                        '                                    </model-viewer>\n' +
-                        '\n' +
-                        '                                    <br/>\n' +
-                        '                                    <button onclick="play(\'audio\', \'audio/detektoriaus_maketas.wav\')"\n' +
-                        '                                            class="w3-button w3-teal"><i class="fas fa-volume-up"></i>\n' +
-                        '                                    </button>\n' +
-                        '\n' +
-                        '                                    <p style="word-break: break-word;">\n' +
-                        '                                        <strong>Laboratorinis detektoriaus maketas Lietuva 1976 m. </strong>Laboratorinis\n' +
-                        '                                        maketas buvo naudojamas laboratorinių darbų metu signalų ir grandinių\n' +
-                        '                                        laboratorijoje.\n' +
-                        '                                    </p>\n' +
-                        '\n' +
-                        '                                </div>\n' +
-                        '\n' +
-                        '                            </div>\n' +
-                        '                        </div>\n' +
-                        '                        <audio id="audio" src="audio/detektoriaus_maketas.wav"></audio>\n' +
-                        '                    </div>\n' +
-                        '                </div>');
-                    //   $('#body').append()
-
-
-                    if (i === 0) {
-                        $('#body').append('</div></div>');
-                    }
-
-                    if (i % 2 === 0) {
-                        $('#body').append('</div>');
-                    }
-
-                    if (i % 4 === 0) {
-                        $('#body').append('</div>');
-                    }
-
-
                 }
+
             }
 
-           // loadData();
+
+            loadData();
         </script>
 
 
@@ -723,10 +714,8 @@
                                       exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
                                       poster="posters/detektoriaus_stendas.png" camera-controls
                                       camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
-                                      >
+                        >
                         </model-viewer>
-
-
                         <div class="w3-container"
                              style="padding-top: 10px; border-bottom: 1px solid #cccccc;border-left: 1px solid #cccccc;border-right: 1px solid #cccccc;">
                             <button onclick="document.getElementById('id01').style.display='block'"
@@ -737,15 +726,7 @@
                             </button>
                             <p></p>
                         </div>
-
-
-                        <!--                            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>-->
-
                         <div id="id01" class="w3-modal">
-
-
-
-
                             <div class="w3-modal-content w3-card-4">
                                 <header class="w3-container w3-white">
         <span onclick="document.getElementById('id01').style.display='none'"
@@ -755,7 +736,8 @@
                                         maketas buvo naudojamas laboratorinių darbų metu signalų ir grandinių
                                         laboratorijoje.
                                     </p>
-                                    <button style="margin-left: 20px" onclick="play('audio', 'audio/detektoriaus_maketas.wav')"
+                                    <button style="margin-left: 20px"
+                                            onclick="play('audio', 'audio/detektoriaus_maketas.wav')"
                                             class="w3-button w3-cyan w3-text-white"><i class="fas fa-volume-up"></i>
                                     </button>
 
@@ -771,7 +753,7 @@
                                                   poster="posters/detektoriaus_stendas.png" camera-controls
                                                   camera-orbit="-1400deg 56.43deg 800cm" field-of-view="80deg">
                                     </model-viewer>
-                                        <p></p>
+                                    <p></p>
 
                                 </div>
 
@@ -792,7 +774,7 @@
                                       exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
                                       poster="posters/acer_anywhere_laptop.png" camera-controls
                                       camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
-                                      >
+                        >
                         </model-viewer>
 
 
@@ -860,7 +842,7 @@
                                       exposure="0.63" shadow-intensity="5.5" shadow-softness="0.42"
                                       poster="posters/varzynas_didelis_mcp60.png" camera-controls
                                       camera-orbit="-1090deg 56.43deg 6.05m" field-of-view="45deg" reveal="interaction"
-                                      >
+                        >
                         </model-viewer>
 
 
@@ -919,7 +901,7 @@
 
             <div class="w3-row-padding">
 
-<!--                4 modelis-->
+                <!--                4 modelis-->
                 <div class="w3-col m4 w3-margin-bottom">
                     <div class="w3-light-grey">
                         <header class="w3-container w3-blue">Perfokorta Lietuva 1960 m.</header>
@@ -971,7 +953,10 @@
                                     </button>
 
                                     <p>
-                                        <strong>Perfokorta Lietuva 1960 m. </strong>Perfokorta - duomenų laikmena, kurią naudoja automatizuotos sistemos. Tai stačiakampio formos kortelė, pagaminta iš plono kartono. Informacija joje užrašoma išmušant skylutes. Patento savininkas IBM. Laikmeną plačiai naudojo programuotojai iki 1980 m.
+                                        <strong>Perfokorta Lietuva 1960 m. </strong>Perfokorta - duomenų laikmena, kurią
+                                        naudoja automatizuotos sistemos. Tai stačiakampio formos kortelė, pagaminta iš
+                                        plono kartono. Informacija joje užrašoma išmušant skylutes. Patento savininkas
+                                        IBM. Laikmeną plačiai naudojo programuotojai iki 1980 m.
                                     </p>
 
                                 </div>
@@ -981,8 +966,6 @@
                         <audio id="audio4" src="audio/perfokorta.wav"></audio>
                     </div>
                 </div>
-
-
 
 
                 <!--                5 modelis-->
@@ -1037,12 +1020,15 @@
                                     </button>
 
                                     <p>
-                                        <strong>Feritinė atminties matrica TSRS 1960 m. </strong>Feritinė matrica, kurioje kiekvienas feritinis žiedelis galėdavo atsiminti 1 bitą.
+                                        <strong>Feritinė atminties matrica TSRS 1960 m. </strong>Feritinė matrica,
+                                        kurioje kiekvienas feritinis žiedelis galėdavo atsiminti 1 bitą.
                                         Matricos
                                         talpa
-                                        apie 1024 bitus. Patento savininkas IBM, tačiau ji buvo gaminama visame pasaulyje,
+                                        apie 1024 bitus. Patento savininkas IBM, tačiau ji buvo gaminama visame
+                                        pasaulyje,
                                         dažniausiai
-                                        aptinkama Japonijoje iki 1975 m. Naudota kaip vaizdinė priemonė aiškinant atminties
+                                        aptinkama Japonijoje iki 1975 m. Naudota kaip vaizdinė priemonė aiškinant
+                                        atminties
                                         veikimo
                                         principą.
                                     </p>
@@ -1054,7 +1040,6 @@
                         <audio id="audio5" src="audio/feritine_matrica.wav"></audio>
                     </div>
                 </div>
-
 
 
                 <!--                6 modelis-->
@@ -1109,7 +1094,8 @@
                                     </button>
 
                                     <p>
-                                        <strong>Oscilografas S1-19A TSRS 1972 m. </strong>Analoginis - lempinis oscilografas, skirtas tirti iki 50 voltų amplitudes ir iki 1Mhz
+                                        <strong>Oscilografas S1-19A TSRS 1972 m. </strong>Analoginis - lempinis
+                                        oscilografas, skirtas tirti iki 50 voltų amplitudes ir iki 1Mhz
                                         (megaherco)
                                         dažnio signalams.
                                     </p>
@@ -1481,57 +1467,56 @@
             <h2>TURINYS BUS PATALPINTAS JAU GREITAI...</h2>
         </div>
 
-                <article id="pagin">
+        <article id="pagin">
 
-                    <nav>
-                        <span><a class="prev w3-xlarge" href="#"><<</a></span>
-                        <ul>
-                            <li class="active w3-border w3-xlarge"><a href="#">1</a></li>
-                            <li class="w3-border w3-xlarge"><a href="#">2</a></li>
-                            <li class="w3-border w3-xlarge"><a href="#">3</a></li>
-                            <li class="w3-border w3-xlarge"><a href="#">4</a></li>
-                            <li class="w3-border w3-xlarge"><a href="#">5</a></li>
-                            <li class="w3-border w3-xlarge"><a href="#">6</a></li>
-                        </ul>
-                        <span><a class="next w3-xlarge" href="#">>></a></span>
-                    </nav>
-                </article>
+            <nav>
+                <span><a class="prev w3-xlarge" href="#"><<</a></span>
+                <ul>
+                    <li class="active w3-border w3-xlarge"><a href="#">1</a></li>
+                    <li class="w3-border w3-xlarge"><a href="#">2</a></li>
+                    <li class="w3-border w3-xlarge"><a href="#">3</a></li>
+                    <li class="w3-border w3-xlarge"><a href="#">4</a></li>
+                    <li class="w3-border w3-xlarge"><a href="#">5</a></li>
+                    <li class="w3-border w3-xlarge"><a href="#">6</a></li>
+                </ul>
+                <span><a class="next w3-xlarge" href="#">>></a></span>
+            </nav>
+        </article>
     </section>
 
 </div>
 
-    <script>
-        var nombrePage = $(".content").length;
+<script>
+    var nombrePage = $(".content").length;
 
-        showPage = function (pagination) {
-            if (pagination < 0 || pagination >= nombrePage) return;
+    showPage = function (pagination) {
+        if (pagination < 0 || pagination >= nombrePage) return;
 
-            $(".content").hide().eq(pagination).show();
-            $("#pagin li").removeClass("active").eq(pagination).addClass("active");
-        }
+        $(".content").hide().eq(pagination).show();
+        $("#pagin li").removeClass("active").eq(pagination).addClass("active");
+    }
 
-        // Go to Left
-        $(".prev").click(function () {
-            showPage($("#pagin ul .active").index() - 1);
-        });
+    // Go to Left
+    $(".prev").click(function () {
+        showPage($("#pagin ul .active").index() - 1);
+    });
 
-        // Go to Right
-        $(".next").click(function () {
-            showPage($("#pagin ul .active").index() + 1);
-        });
+    // Go to Right
+    $(".next").click(function () {
+        showPage($("#pagin ul .active").index() + 1);
+    });
 
-        $("#pagin ul a").click(function (e) {
-            e.preventDefault();
-            showPage($(this).parent().index());
-            $("html, body").animate({scrollTop: 400}, "slow");
-        });
+    $("#pagin ul a").click(function (e) {
+        e.preventDefault();
+        showPage($(this).parent().index());
+        $("html, body").animate({scrollTop: 400}, "slow");
+    });
 
-        showPage(0)
-    </script>
+    showPage(0)
+</script>
 
 
-    <!-- The Team -->
-
+<!-- The Team -->
 
 
 <!-- W3.CSS Container -->
