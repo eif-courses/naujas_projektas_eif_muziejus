@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Updated UI/UX">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eksponatai2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/eksponatai.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai.html" afterDir="false" />
     </list>
@@ -54,7 +54,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,19 +67,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Marius\Desktop\3dModel\public\images" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\public\audio" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\public\js" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\js" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Marius\Desktop\3dModel\public" />
       <recent name="C:\Users\Marius\Desktop\3dModel" />
       <recent name="C:\Users\Marius\Desktop\3dModel\audio" />
       <recent name="C:\Users\Marius\Desktop\3dModel\posters" />
       <recent name="C:\Users\Marius\Desktop\3dModel\models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\Desktop\3dModel" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\public\images" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\public\audio" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\public\js" />
+      <recent name="C:\Users\Marius\Desktop\3dModel\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -125,7 +125,8 @@
       <workItem from="1598642137832" duration="8302000" />
       <workItem from="1598698401461" duration="6626000" />
       <workItem from="1598800772557" duration="16560000" />
-      <workItem from="1598869450719" duration="1962000" />
+      <workItem from="1598869450719" duration="2481000" />
+      <workItem from="1599215995031" duration="7749000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1598306432711</created>
@@ -253,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598821131441</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="esraw">
+      <created>1598871711551</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598871711552</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Okidoki">
+      <created>1599219470740</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599219470740</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +290,9 @@
     <MESSAGE value="Hello" />
     <MESSAGE value="Helloaaa" />
     <MESSAGE value="Updated UI/UX" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated UI/UX" />
+    <MESSAGE value="esraw" />
+    <MESSAGE value="Okidoki" />
+    <option name="LAST_COMMIT_MESSAGE" value="Okidoki" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598382223551">
@@ -326,13 +343,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598821134472">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599219892326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598821134472" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1598802781164">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599219892326" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599221664057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598802781164" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599221664057" />
   </component>
 </project>
