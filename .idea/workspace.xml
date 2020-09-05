@@ -22,10 +22,6 @@
     <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="EIF MUZIEJUS v 0.1_RC">
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/eksponatai_EN.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai_EN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/eksponatai_RU.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai_RU.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index_EN.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index_EN.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index_RU.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index_RU.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +132,8 @@
       <workItem from="1599249479215" duration="178000" />
       <workItem from="1599290650291" duration="2616000" />
       <workItem from="1599295827767" duration="428000" />
-      <workItem from="1599302441189" duration="14404000" />
+      <workItem from="1599302441189" duration="14707000" />
+      <workItem from="1599318883483" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1598306432711</created>
@@ -362,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599314007122</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="EIF MUZIEJUS v 0.1_RC">
+      <created>1599318818825</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1599318818825</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,10 +447,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599314008058">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599318819982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599314008058" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599318819982" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1599318369341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
