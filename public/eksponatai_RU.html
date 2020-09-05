@@ -512,7 +512,13 @@
             text-align: center;
             background-color: #f1f1f1;
         }
-
+        .kalbos_hover:hover{
+            border: 2px solid yellow;
+            cursor: pointer;
+        }
+        .kalbos_active{
+            border: 2px solid yellow;
+        }
 
     </style>
 
@@ -603,8 +609,18 @@
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
        style="width:100%;font-size:22px">Uždaryti meniu</a>
     <div class="w3-container">
-        <h3 class="w3-padding-64"><b>EIF MUZIEJUS</b></h3>
+        <h3><b>EIF MUZIEJUS</b></h3>
     </div>
+
+    <hr/>
+    <div class="w3-row">
+        <a href="eksponatai.html"> <div class="w3-col s4 w3-center kalbos_hover ">LT<img style="padding-left: 5px" class="w3-image" src="images/lithuania_active.png" width="48px"></div></a>
+        <a href="eksponatai_EN.html"><div class="w3-col s4  w3-center kalbos_hover">EN<img style="padding-left: 5px" class="w3-image" src="images/uk.png" width="48px"></div></a>
+        <div class="w3-col s4  w3-center kalbos_hover kalbos_active">RU<img style="padding-left: 5px" class="w3-image" src="images/russia.png" width="48px"></div>
+    </div>
+    <hr/>
+
+
     <div class="w3-bar-block">
         <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img width="32px" height="32px"
                                                                                            src="posters/silelis_tc32.webp"><span
