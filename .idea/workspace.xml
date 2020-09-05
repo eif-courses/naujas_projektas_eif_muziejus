@@ -19,11 +19,58 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Fixed images, and preview">
+    <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="Languages Added sound left">
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/13_lozi.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/BMM.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/GS_15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/IBM_1311.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/Masrutizatorius_racal_ru.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/ampermetras.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/apsilankykite.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/aritmometras_bystrica.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/aukstavoltis.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/butinis_kompiuteris_robik.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/cd_crown.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/detektoriaus_maketas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/elekronika580_stendas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/elektroninis_egzaminatorius.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/feritine_matrica.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/imtuvo_sandaros_stendas_ru.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/imula.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/juostinis_stereo_elfa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/kamutatorius.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/kasetinis_magnetofonas_vesna.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/kino_projektorius_ukraina5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/kompiuterio_terminalas_ibm.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/kompiuteris_santaka.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/kondensatorius.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/kosmolec.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/laptopas_acer_ak.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/maketas_silelis405D_ru.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/motorola_box.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/msp_60_varzynas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/orine_linija_viela_ru.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/oscilografas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/perfokorta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/powerMacintosh.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/radijas_philips667A_ru.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/radijo_lempa_tesla.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/radijo_lempa_triodas60kw.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/radijola_vega.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/rp_255_radio_stendas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/silelis32tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/skaiciuotuvas_bk.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/skaitmeniniu_grandynu_stendas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/telegrafo_raktas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/televiziniu_signalu_generatorius.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/universalus_matuoklistl4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/vaizdo_magnetofono_stendas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/varzynas_not_sure1956.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/vefta_1994_telefonas.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/vefta_bagta_1950.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/voltmetras.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio_ru/zigzagine_antena.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/eksponatai.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/eksponatai_EN.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai_EN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/eksponatai_RU.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai_RU.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +102,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/audio_ru" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,11 +116,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\Desktop\3dModel\public\audio_ru" />
       <recent name="C:\Users\Marius\Desktop\3dModel\public" />
       <recent name="C:\Users\Marius\Desktop\3dModel\public\posters" />
       <recent name="C:\Users\Marius\Desktop\3dModel\public\audio_en" />
       <recent name="C:\Users\Marius\Desktop\3dModel" />
-      <recent name="C:\Users\Marius\Desktop\3dModel\public\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Marius\Desktop\3dModel\public\images" />
@@ -133,7 +180,7 @@
       <workItem from="1599249479215" duration="178000" />
       <workItem from="1599290650291" duration="2616000" />
       <workItem from="1599295827767" duration="428000" />
-      <workItem from="1599302441189" duration="8258000" />
+      <workItem from="1599302441189" duration="10424000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1598306432711</created>
@@ -345,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599307597530</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Languages Added sound left">
+      <created>1599312172493</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1599312172493</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,17 +427,18 @@
     <MESSAGE value="Optimization v1" />
     <MESSAGE value="aweawe" />
     <MESSAGE value="Fixed images, and preview" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed images, and preview" />
+    <MESSAGE value="Languages Added sound left" />
+    <option name="LAST_COMMIT_MESSAGE" value="Languages Added sound left" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598382223551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598382223551" />
-    <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599231416542">
+    <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599313079166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599231416542" />
+    <state x="707" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599313079166" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599244130415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -424,14 +479,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599307598669">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599312227726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599307598669" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1599308571599">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599312227726" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599313536354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599308571599" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599313536354" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599303299363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
