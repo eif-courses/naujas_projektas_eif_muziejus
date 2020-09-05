@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4980dcc-5e55-4e4d-8cbb-fd8fbdbbd678" name="Default Changelist" comment="EIF MUZIEJUS v 0.1_RC">
-      <change afterPath="$PROJECT_DIR$/public/images/market1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index_EN.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index_EN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index_RU.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index_RU.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/eksponatai.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/eksponatai_EN.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai_EN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/eksponatai_RU.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai_RU.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,8 @@
       <workItem from="1599295827767" duration="428000" />
       <workItem from="1599302441189" duration="14707000" />
       <workItem from="1599318883483" duration="69000" />
-      <workItem from="1599327459720" duration="942000" />
+      <workItem from="1599327459720" duration="1100000" />
+      <workItem from="1599333153223" duration="205000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1598306432711</created>
@@ -376,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599318945849</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="EIF MUZIEJUS v 0.1_RC">
+      <created>1599328455079</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1599328455079</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,10 +465,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599318947001">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599328456528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599318947001" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599328456528" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1599318369341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
