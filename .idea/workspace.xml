@@ -24,9 +24,6 @@
       <change beforePath="$PROJECT_DIR$/public/eksponatai.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/eksponatai_EN.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai_EN.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/eksponatai_RU.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/eksponatai_RU.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index_EN.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index_EN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index_RU.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index_RU.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +133,7 @@
       <workItem from="1599249479215" duration="178000" />
       <workItem from="1599290650291" duration="2616000" />
       <workItem from="1599295827767" duration="428000" />
-      <workItem from="1599302441189" duration="4465000" />
+      <workItem from="1599302441189" duration="8258000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <created>1598306432711</created>
@@ -341,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599306324463</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Fixed images, and preview">
+      <created>1599307597530</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1599307597530</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,14 +424,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598306195292" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599306366033">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599307598669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599306366033" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1599229095240">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599307598669" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599308571599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599229095240" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599308571599" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599303299363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
